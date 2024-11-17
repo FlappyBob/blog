@@ -1,11 +1,11 @@
 ---
 title: Test
 categories:
-    - [learn]
-    - [research]
-    - [life]
-    - [art]
-    - [misc]
+    # - [learn]
+    # - [research]
+    # - [life]
+    # - [art]
+    # - [misc]
 ---
 
 # Markdown: Syntax
