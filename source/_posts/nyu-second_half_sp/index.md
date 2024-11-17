@@ -39,7 +39,7 @@ date: 2024-03-09 15:03:22
 > 用你自己的范式去定义，而不是被定义。这是基本的主体性的道德。
 
 ### 8.23 推荐一些用户
-[tim未来之光](./https://www.zhihu.com/people/maple-syrup-41/answers)
+[tim未来之光](https://www.zhihu.com/people/maple-syrup-41/answers)
 
 这个博主，最近我一直看，感受挺深的，对改变我的性格和行为有指导性的作用。
 
@@ -247,7 +247,7 @@ Identity基因论是纯纯的无稽之谈。随着生理结构的改变，identi
 
 在飞机上特别无聊，看了不少经典的lecture。早就因为《黑客和画家》听闻过Paul Graham的大名，虽然没有创业的想法，但是也对创业这个话题稍感兴趣，于是就在飞机上补完YC在Stanford的那个经典lecture，我觉得对科技相关创业者启发非常大。听下来有几点非常好，我写点笔记:
 
-[Lecture 3 - Before the Startup](./https://www.bilibili.com/video/BV1V84y1Q7pT/?spm_id_from=333.337.search-card.all.click)‘
+[Lecture 3 - Before the Startup](https://www.bilibili.com/video/BV1V84y1Q7pT/?spm_id_from=333.337.search-card.all.click)‘
 
 1. 大学生不能创业。因为创业是很累的要全身心投入的，一旦你创业了，你就不是大学生。
 2. 为了准备科技创业，黑客们最好学习到最硬核的技术和思考方式。
