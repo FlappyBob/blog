@@ -1,11 +1,11 @@
-# generate new post
-# pname="haha"
-# postdir=./source/_posts
+generate new post
+pname="haha"
+postdir=./source/_posts
 
-# hexo new post ${pname}
+hexo new post ${pname}
 
-# mkdir ${postdir}/${pname}
-# mv ${postdir}/${pname}.md ${postdir}/${pname}/${pname}.md
+mkdir ${postdir}/${pname}
+mv ${postdir}/${pname}.md ${postdir}/${pname}/${pname}.md
 
 
 # hexo new page archives
