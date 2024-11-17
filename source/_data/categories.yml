@@ -1,0 +1,4 @@
+misc: /misc
+  url: <url> 
+  name:  <name>
+  desc: <desc>
