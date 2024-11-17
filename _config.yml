@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: Shengtao Yao
 language: en
-timezone: 'Eastern'
+timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
