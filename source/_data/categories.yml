@@ -1,16 +1,16 @@
 learn:
-  url: /learn
+  url: /categories/learn
   name: /learn
   desc: /learn
 research:
-  url: /research
+  url: /categories/research
   name: /research
   desc: /research
 life: 
-  url: /life
+  url: /categories/life
   name: /life
   desc: /life
 misc:
-  url: /misc
+  url: /categories/misc
   name: /misc
   desc: /misc
