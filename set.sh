@@ -8,6 +8,6 @@
 # mv ${postdir}/${pname}.md ${postdir}/${pname}/${pname}.md
 
 
-hexo new page archives
-hexo new page tags
-hexo new page categories
+# hexo new page archives
+# hexo new page tags
+hexo new page links
