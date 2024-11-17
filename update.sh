@@ -1,7 +1,7 @@
 cd themes/cactus
 git add . 
 git commit -m "aaa"
-git push push 
+git push 
 
 cd /home/flappy/my-blog/
 git submodule update --remote
