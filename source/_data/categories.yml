@@ -2,3 +2,19 @@ misc:
   url: /misc
   name: /misc
   desc: /misc
+learn:
+  url: /learn
+  name: /learn
+  desc: /learn
+life: 
+  url: /life
+  name: /life
+  desc: /life
+art:
+  url: /art
+  name: /art
+  desc: /art
+research:
+  url: /research
+  name: /research
+  desc: /research
