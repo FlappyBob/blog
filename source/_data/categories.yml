@@ -1,16 +1,16 @@
 learn:
   url: /categories/learn
-  name: /learn
-  desc: /learn
+  name: 萨雷安
+  desc: 可反复咀嚼的经典
 research:
   url: /categories/research
-  name: /research
-  desc: /research
+  name: 水晶都
+  desc: 前沿技术的想法和实现
 life: 
   url: /categories/life
-  name: /life
-  desc: /life
+  name: 沙之家
+  desc: 有关生活的想法和记录
 misc:
   url: /categories/misc
-  name: /misc
-  desc: /misc
+  name: 幻想乡
+  desc: 杂想

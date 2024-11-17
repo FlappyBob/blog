@@ -1,5 +1,5 @@
 ---
-title: 3rd_yr_fall
+title: 3rd yr fall
 date: 2024-09-06 15:03:22
 categories:
     - life
