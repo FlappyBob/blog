@@ -1,3 +1,4 @@
+git submodule update --remote
 hexo generate
 git add . 
 git commit -m "aaa"
