@@ -425,7 +425,7 @@ body table {
 }
 body th {
   padding: 8px;
-  border-bottom: 1px dashed #2b0a52;
+  border-bottom: 1px dashed #1f1a2e;
   color: rgba(86,124,119,0.8);
   font-weight: bold;
   font-size: 16px;
@@ -869,11 +869,11 @@ body {
   content: "#";
 }
 #header-post #toc .toc-level-3 {
-  color: #2b0a52;
+  color: #1f1a2e;
   font-size: 0.7rem;
 }
 #header-post #toc .toc-level-4 {
-  color: #220842;
+  color: #191525;
   font-size: 0.4rem;
 }
 #header-post #toc .toc-level-5 {
@@ -941,7 +941,7 @@ body {
   left: 0;
   z-index: 5000000;
   width: 100%;
-  border-top: 1px solid #2b0a52;
+  border-top: 1px solid #1f1a2e;
   background: #000;
   transition: opacity 0.2s;
 }
@@ -1049,7 +1049,7 @@ body {
   content: "#";
 }
 #footer-post #toc-footer .toc-level-3 {
-  color: #2b0a52;
+  color: #1f1a2e;
   font-size: 0.7rem;
   line-height: 15px;
 }
@@ -1082,7 +1082,7 @@ body {
   display: block;
   margin-right: 16px;
   min-width: 100px;
-  color: #2b0a52;
+  color: #1f1a2e;
   font-size: 14px;
 }
 @media (min-width: 480px) {
@@ -1180,16 +1180,16 @@ article .content blockquote:before {
 }
 article .content blockquote footer {
   margin: line-height 0;
-  color: #2b0a52;
+  color: #1f1a2e;
   font-size: 12px;
 }
 article .content blockquote footer a {
-  background-image: linear-gradient(transparent, transparent 5px, #2b0a52 5px, #2b0a52);
-  color: #2b0a52;
+  background-image: linear-gradient(transparent, transparent 5px, #1f1a2e 5px, #1f1a2e);
+  color: #1f1a2e;
 }
 article .content blockquote footer a:hover {
-  background-image: linear-gradient(transparent, transparent 4px, #52139d 4px, #52139d);
-  color: #52139d;
+  background-image: linear-gradient(transparent, transparent 4px, #453a66 4px, #453a66);
+  color: #453a66;
 }
 article .content blockquote footer cite:before {
   padding: 0 0.5em;
@@ -1212,7 +1212,7 @@ article .content .caption {
   position: relative;
   display: block;
   margin-top: 0.5em;
-  color: #2b0a52;
+  color: #1f1a2e;
   text-align: center;
   font-size: 0.9em;
 }
@@ -1261,7 +1261,7 @@ article .content .caption {
   display: block;
   margin-right: 16px;
   min-width: 100px;
-  color: #2b0a52;
+  color: #1f1a2e;
   font-size: 14px;
 }
 @media (min-width: 480px) {
@@ -1282,7 +1282,7 @@ article .content .caption {
   bottom: 0;
   margin-bottom: 10px;
   width: 100%;
-  color: #2b0a52;
+  color: #1f1a2e;
   vertical-align: top;
   text-align: center;
   font-size: 12px;
@@ -1296,7 +1296,7 @@ article .content .caption {
   display: inline-block;
   margin-right: 15px;
   border-right: 1px solid;
-  border-color: #2b0a52;
+  border-color: #1f1a2e;
   vertical-align: middle;
 }
 #footer li a {
@@ -1310,12 +1310,12 @@ article .content .caption {
   margin-right: 0;
 }
 #footer a {
-  color: #2b0a52;
+  color: #1f1a2e;
   text-decoration: underline;
   background-image: none;
 }
 #footer a:hover {
-  color: #52139d;
+  color: #453a66;
 }
 #footer .footer-left {
   height: 20px;
@@ -1409,7 +1409,7 @@ article .content .caption {
   color: #dce0e3;
 }
 #tag-cloud .tag-cloud-title {
-  color: #2b0a52;
+  color: #1f1a2e;
 }
 #tag-cloud .tag-cloud-tags {
   clear: both;
@@ -1521,10 +1521,10 @@ article .content .caption {
   }
 }
 #categories .category-list-title {
-  color: #2b0a52;
+  color: #1f1a2e;
 }
 #categories .category-list .category-list-item .category-list-count {
-  color: #2b0a52;
+  color: #1f1a2e;
 }
 #categories .category-list .category-list-item .category-list-count:before {
   content: " (";
@@ -1610,7 +1610,7 @@ pre {
   overflow-x: auto;
   padding: 10px 15px;
   padding-bottom: 0;
-  border: 1px dotted #2b0a52;
+  border: 1px dotted #1f1a2e;
   border-radius: 4px;
   font-size: 13px;
   font-family: "Microsoft YaHei", "Aria", monospace;
@@ -1624,7 +1624,7 @@ pre code {
 }
 code {
   padding: 0 5px;
-  border: 1px dotted #2b0a52;
+  border: 1px dotted #1f1a2e;
   border-radius: 2px;
   -webkit-border-radius: 2px;
   font-size: 17px;
@@ -1640,13 +1640,13 @@ code {
 }
 .highlight figcaption {
   margin: -5px 0 5px;
-  color: #3f0f77;
+  color: #322a4a;
   font-size: 0.9em;
   transform: scale(1);
 }
 .highlight figcaption a {
   float: right;
-  color: #3f0f77;
+  color: #322a4a;
   font-style: italic;
   font-size: 0.8em;
   background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
@@ -1655,7 +1655,7 @@ code {
   background-repeat: repeat-x;
 }
 .highlight figcaption a:hover {
-  color: #6217ba;
+  color: #54477c;
 }
 .highlight figcaption:before,
 .highlight figcaption content: "" {
