@@ -1616,6 +1616,7 @@ code {
   border: 1px dotted #908d8d;
   border-radius: 2px;
   -webkit-border-radius: 2px;
+  font-size: 17px;
 }
 .highlight {
   overflow-x: auto;
