@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hi, I am Flappy 
-subtitle: ''
+title: VA-11 HALL-B
+subtitle: 'Time to write some codes and have some drinks'
 description: ''
 keywords:
 author: Shengtao Yao
 language: en
-timezone: ''
+timezone: 'Eastern'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
