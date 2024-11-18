@@ -91,4 +91,4 @@ again，x的意义的多少取决于相信x的对象。你如果相信x，那么
 C: So everything is meaningful. 
 
 **小总。**
-显然逻辑的语言远远不止if then structure，但是我目前不太想前进了。这是一场大开眼见的旅行。感恩。
+这是一场大开眼见的旅行。感恩。
