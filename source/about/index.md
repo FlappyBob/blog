@@ -9,6 +9,8 @@ date: 2024-11-17 21:27:17
  
 I am Shengtao Yao.
 
+This is [me](./index/avatar.jpg)
+
 我的链接 My links: 
 [github](https://github.com/FlappyBob) 
 [resume](./resources/Resume1003.pdf) 
