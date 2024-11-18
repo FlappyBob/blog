@@ -1,7 +1,8 @@
 ---
 title: VA-11-HALL-A
 date: 2023-11-07 22:02:42
-tags:
+categories:
+    - misc
 ---
 
 这个游戏温馨，包容。

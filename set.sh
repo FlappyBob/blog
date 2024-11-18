@@ -1,7 +1,7 @@
 generate new post
 
 # 不能有空格！
-pname="VA-11-HALL-A"
+pname="outerwild"
 hexo new post ${pname}
 
 # hexo new page academic
