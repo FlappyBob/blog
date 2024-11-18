@@ -1,5 +1,5 @@
 ---
-title: "2nd_yr_spo"
+title: "2nd_yr_sp"
 date: 2024-03-09 15:03:22
 categories:
     - life
