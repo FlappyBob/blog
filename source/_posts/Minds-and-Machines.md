@@ -5,7 +5,7 @@ categories:
     - learn
 ---
 
-![](oculus.jpg)
+![](./Minds-and-Machines/oculus.jpg)
 
 这门课是今年心智影响最大的课，也是几乎整个学期最有趣的一门课，因此我专门写一篇blog。我在这门课开始时预期会很正式，但是上过之后才发现lecture大多都是通过现有的科技设备进行一个metaphysics，value，epistemologics的大思考，在lecture上对argument逻辑思考都是点到为止。（相当于是让你对哲学的基本问题有个认识，同时介绍了哲学史上一些有名的argument并且让你做一些小的辩证的思考）但是自己写paper的时候还是要注重logics。以下通俗的讲下对上完这门课总览，我的感受，我对哲学这门学科的理解，以及我从通识哲学课中收获了什么。
 
@@ -30,7 +30,8 @@ So: either
 (i) there are no posthumans 
 (ii) they’re not interested in simulations
 (iii) most beings will be simulated
-![Alt text](image.png)
+
+![Alt text](./Minds-and-Machines/image.png)
 
 当然我觉得这个很大的问题是simulation的cost相当之大。假设你用了很多的内存来仅仅精准模拟一个原子的状态机，那么这个代价是天顶天的。很多非工科的学生对cost和performance之间的关系观察力很有限，他们并不会从这种偏经验的方向去argue against一个观点。
 
