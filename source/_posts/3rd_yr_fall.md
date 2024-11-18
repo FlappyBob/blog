@@ -11,28 +11,50 @@ categories:
 
 2. 希望能体验更多不同事情吧，一直想出cos的，更偏实操落地的实验项目，去更多地方玩和不同性格人聊聊天。
 
-3. 保持之前一些不错的习惯，社交和生活上的习惯。请见[](./地球online中的超良性资产)
+3. 保持之前一些不错的习惯，社交和生活上的习惯。请见[地球online中的良性资产](./地球online中的超良性资产)一文。
 
 ## 9.28 一场求职会
 
-最大的收获就是自己吹的牛逼真的是远远不够，link 的人还远远不够。
+求职我是一直不太了解情况的，只是大概听过申请swe是什么“49年入国军”，“03年入dotcom”。
 
-1. 自己的简历写的太垃圾了，连最基础的 STAR 模板都没有，之后得好好改改，HC 可能看到直接认为你不够 professional 直接扔进垃圾桶了。 2. 经历不够 solid。课程 project 完全不够看好吗，research 能否多一些。。 3.
-   最后才是不够强，需要时间打磨自己的 skill，不会就学好吗，学无止尽！！
+于是这节求职会给我做了一些value alignment： 自己吹的牛逼真的是远远不够，link的人还远远不够
 
-虽然是一个盈利的求职机构，但是最后一段话给我感触蛮深的，那个主持人说：“你要把求职看作一段经历而不是一个目标。在人生中求职这件事情对大部分人来说都是主旋律。在这段旅途中你会认识不少不同性格的人，发生不少事情（coffeechat，meeting 等等），这些都是独一无二的回忆和经验。”
+1. 自己的简历写的太垃圾了，连最基础的 STAR 模板都没有，之后得好好改改，HC 可能看到直接认为你不够 professional 直接扔进垃圾桶了。 
+2. 经历不够 solid。课程 project 完全不够看好吗，research 能否多一些。。 
+3. 政治太他妈正确了。你为什么不能是个女生啊，真的听过太多神仙故事比如什么intern10个9女1男的故事了。
 
-## 10.14 research / event ..
+虽然是一个盈利的求职机构，但是最后一段话给我感触蛮深的，那个主持人说：
 
-最近去了不少 events，point72 的 talk 和 JP morgan 的管开源的一个代码组组长来了。
+> 你要把求职看作一段经历而不是一个目标。在人生中求职这件事情对大部分人来说都是主旋律。在这段旅途中你会认识不少不同性格的人，发生不少事情（coffeechat，meeting 等等），这些都是独一无二的回忆和经验。
 
-point72 没啥收获，倒是我感觉金融领域我能参加的领域也许只有买方像 hedge fund 这种。。中间 presenter 放了一张金融这个大机器怎么运作的图我还是比较好奇的，希望以后能有一些愿意教我的金融朋友给我科普一下。
+## Event都是神马鬼啊
 
-BUGS 的 event 的开源大叔前面讲了一堆开源 licence 的东西有点杂，也没咋听懂，但是他 keynotes 用来结尾的话我记得蛮牢的，最近对我很有共鸣 -- Since you are young, whenever you meet a someone's invitation, **always
-say yes**. 我觉得确实，如果有好机会，不要管自己行不行，先上再说，之后再补。
+最近去了不少 events，point72 的 talk 和 JP morgan，google research， morgan stanley target to analyst， cerebras demo会。我一个个讲： 
 
-research 相关也找周围同学和 phds 也聊了一下，感觉自己在 ai 方面是真的菜，但是又特别想了解，要一些时间来沉淀一下吧，最近打算用 231n 和李沐大大的课入门一下 dl，然后找教授要些 project 做做，let's see how far I can
-go
+point72。没啥收获，倒是我感觉金融领域我能参加的领域也许只有买方像 hedge fund 这种。。中间 presenter 放了一张金融这个大机器怎么运作的图我还是比较好奇的，希望以后能有一些愿意教我的金融朋友给我科普一下。
+
+JP morgan 的 event 来了个开源组组长，前面讲了一堆开源 licence 的东西有点杂，也没咋听懂，但是他 keynotes 用来结尾的话我记得蛮牢的，最近对我很有共鸣 -- Since you are young, whenever you meet a someone's invitation, **always say yes**. 我觉得确实，如果有好机会，不要管自己行不行，先上再说，之后再补。
+
+Google research。这个是很有价值的，不出意外可以弄到不少好吃的。内容整体还是扯皮，主要看有没有神仙speaker，略了。
+
+![alt text](./3rd_yr_fall/6758b46be7970d3e70af74acac514c8.jpg)
+
+Morgan stanley target to analyst intern 的。**没空的话，不推荐**。进来就是一帮人笔笔唠唠感觉也没学到啥，之后又是可以比作没有的 network，这能 network 到啥？一帮子人全部拥上去了，那能 share 到每个人的时间有多少？这种 event 真的是看上去鲜美实则毒瘤，有这空最好还是别去的好，不如自己约 coffee chat 有效。
+
+cerebras demo。**没空的话，极其不推荐**。分为 speaker keynotes/live demo 和之后的 party。**Do not attend, especially for a event host by some dramatizer**。尤其是没有主办方没有过审的环节，嘉宾质量是参差不齐，难绷的一批，就是你只要是一个 random developer / 或者是网红。最后是自己竹篮打水一场空，发现 speaker 把网上都找得到的信息反复说了好几遍，其实都是为了向场下的投资者装逼罢了。不过中途看到不少 cmu junior 或者是 current phd，所以当自己做出来一些能装逼的东西之后，是可以拿上去装逼的。But for a researcher and a dev, you can get nothing out of it but some random stikers and a cupnoodle。
+![alt text](./3rd_yr_fall/c4826dae9367c24b6615f9ccec03f45.jpg) 
+
+![alt text](./3rd_yr_fall/df5e62210a8e0aa4d3905063bc3aac7.jpg)
+
+最近也是感觉自己想要的太多了。每个人都有自己爱好，但是要知道在企业或者学校老板那里自己就是一个**技术工种**罢了。自己是 sde 就约 sde，research 就好好找 research，不要羡慕别人 analyst 的那一份。不属于自己的再追求也是浪费自己的时间。对我来说，我认为
+
+1. 非 mle/sde 的 network 不去。对标 morgan stanley 这种，尤其是 analyst intern 这种。
+2. entrepreneur event 不去。对标 cerebras 这种，去的基本都是混子 dev 和爱装逼的 dev，可能聊一百个才能找到对胃的，而 tech share 又很少，除非自己当 ceo 上去装逼会爽一点，有用一点。
+3. 非自己学校 research event，正式 tech 公司的竞赛不去。选 event 的时候一定要选正规机构，另有竞争力筛子的那种 event。例如自己学校 research event，正式 tech 公司的竞赛都是可以 reach out 的。一般全网开放的 event 都会进来不少只会装逼的混子，找不到任何有价值的信息。自己学校 research center 和竞赛是一个良好的 filter，能筛掉不少混子。
+
+总的来说，虽然说眼光要放的宽，但是也要放的对。
+
+*所以过了这个求职会和events我其实大概放弃求职了，我认为现在这条路太正确了，我毕竟没有强到那些高中拿牌的神仙们，所以继续这条路有点自废自己武功。合理发展自己的兴趣，再领域认识大牛，合理的connection才是制胜的关键，所以最近一段时间一心research了。*
 
 ## 10.19 欢迎回来，彭立勋
 
@@ -60,33 +82,7 @@ go
 
 ![alt text](./3rd_yr_fall/image-3.png)
 
-### 进入第一个正题：对一个 developer or researcher，哪些是好 event？
 
-最近又去了 3 个 event，感觉自己有种很憋屈的感觉。
-
-第一个是 google research。这个是很有价值的，因为去的基本都是 phd，遇到了一些做 HCI 和硬件，ai4sci/health 的什么都有，交叉偏多。这种我认为可以参加蹭下 free food。整体还是扯皮，略了。
-
-![alt text](./3rd_yr_fall/6758b46be7970d3e70af74acac514c8.jpg)
-
-第二个是一个 morgan stanley target to analyst
-intern 的。**没空的话，不推荐**。进来就是一帮人笔笔唠唠感觉也没学到啥，之后又是可以比作没有的 network，这能 network 到啥？一帮子人全部拥上去了，那能 share 到每个人的时间有多少？这种 event 真的是看上去鲜美实则毒瘤，有这空最好还是别去的好，不如自己约 coffee
-chat 有效。
-
-后是一个 cerebras 的 event，**没空的话，极其不推荐**。分为 speaker keynotes/live demo 和之后的 party。**Do not attend, especially for a event host by some
-dramatizer**。尤其是没有主办方没有过审的环节，嘉宾质量是参差不齐，难绷的一批，就是你只要是一个 random developer /
-或者是网红。最后是自己竹篮打水一场空，发现 speaker 把网上都找得到的信息反复说了好几遍，其实都是为了向场下的投资者装逼罢了。不过中途看到不少 cmu junior 或者是 current
-phd，所以当自己做出来一些能装逼的东西之后，是可以拿上去装逼的。But for a researcher and a dev, you can get nothing out of it but some random stikers and a cupnoodle。
-![alt text](./3rd_yr_fall/c4826dae9367c24b6615f9ccec03f45.jpg) [alt text](./3rd_yr_fall/df5e62210a8e0aa4d3905063bc3aac7.jpg)
-
-最近也是感觉自己想要的太多了。每个人都有自己爱好，但是要知道在企业或者学校老板那里自己就是一个**技术工种**罢了。自己是 sde 就约 sde，research 就好好找 research，不要羡慕别人 analyst 的那一份。不属于自己的再追求也是浪费自己的时间。对我来说，我认为
-
-1. 非 mle/sde 的 network 不去。对标 morgan stanley 这种，尤其是 analyst intern 这种。 2. entrepreneur event 不去。对标 cerebras 这种，去的基本都是混子 dev 和爱装逼的 dev，可能聊一百个才能找到对胃的，而 tech
-   share 又很少，除非自己当 ceo 上去装逼会爽一点，有用一点。 3. 非自己学校 research event，正式 tech 公司的竞赛不去。选 event 的时候一定要选正规机构，另有竞争力筛子的那种 event。例如自己学校 research
-   event，正式 tech 公司的竞赛都是可以 reach out 的。一般全网开放的 event 都会进来不少只会装逼的傻逼，找不到任何有价值的信息。自己学校 research center 和竞赛是一个良好的 filter，能筛掉不少傻逼。
-
-总的来说，虽然说眼光要放的宽，多多注意那些潜在的非主要的可能性。但是热血劲是必要的 -- 其实一直是这样，
-
-求其上者的其中。多训练, 老老实实地踏实走好每一步,比什么都重要。
 
 ### 进入第二个正题： 热传 NYU 学生鉴定。
 
