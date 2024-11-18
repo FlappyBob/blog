@@ -1,6 +1,6 @@
 ---
-title: outerwild
-date: 2024-11-17 22:15:47
+title: Outerwild
+date: 2023-11-10 22:15:47
 categories:
     - misc
 ---
