@@ -1,6 +1,8 @@
 ---
 title: "2nd_yr_spo"
 date: 2024-03-09 15:03:22
+categories:
+    - life
 ---
 
 ## 大学第二下半年随想日寄

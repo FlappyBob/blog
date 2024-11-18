@@ -15,8 +15,8 @@ end，会认为你是一个低价值的人。
 
 面对陌生人表现得从容最重要的心态是，做好自己就好了，即使是面对一个地位很高的人也是保持自信，表现出正常的自己就行。这点我很多朋友都做得很好，说话就是不紧不慢，轻松，保持对对方的好奇而不是尝试用什么网络用语回避，即便对方是年长，有经验的人。他给了我不少启发。
 
-![alt text](image.png) 
-![alt text](image-1.png)
+![alt text](./3rd_yr_fall/image.png) 
+![alt text](./3rd_yr_fall/image-1.png)
 
 学期期待的话就是：
 
@@ -60,19 +60,19 @@ go
 
 从我玩守望先锋竞技开始，我就一直喜欢玩那种能够一个人 c 全场的角色，谁不是呢 --
 源氏，麦克雷，铁拳，之后玩 r6 又是 ash，zofia，ace，尝试一个人把队伍里能做的事情全自己做了。这就是我，但是只要是个人都会想装逼，想要自己吃掉所有资源当大哥，然后享受其他人的仰慕；但就是问题在于，这是一个团队游戏，你不能只考虑你自己。这就是团队游戏的魅力，个人能力固然重要，但是也得有军心，有 bp 各种东西混杂在一起的因素奠定胜局。所以这就是为什么能俯下身子为你加油的人很重要，他们少了自己的那一份台下的聚光灯，但是鼓舞了队友。
-![alt text](image-2.png)
+![alt text](./3rd_yr_fall/image-2.png)
 
 我是一直粉 xun 子的 --
 我看到 xun 不爽的操作也喷；他的指挥有时候会过勇了，效果也不会好。但是我还是衷心希望 xun 子能越打越好，带队伍赢游戏。他操作不是世界第一，甚至在队内都是垫底的，但他绝对想队伍好而不是只想自己打出神操作的那种人
 -- 他绝对是一个懂队友的好朋友。
-![alt text](image-4.png) [alt text](image-5.png)
+![alt text](./3rd_yr_fall/image-4.png) [alt text](./3rd_yr_fall/image-5.png)
 **欢迎回来，彭立勋。**
 
 ## 10/26 网络热传 event 鉴定 / 热传 NYU 学生鉴定。
 
 今早看比赛了，恭喜**BLG 进决赛**！加油啊带着 WBG 的那一份！
 
-![alt text](image-3.png)
+![alt text](./3rd_yr_fall/image-3.png)
 
 ### 进入第一个正题：对一个 developer or researcher，哪些是好 event？
 
@@ -80,7 +80,7 @@ go
 
 第一个是 google research。这个是很有价值的，因为去的基本都是 phd，遇到了一些做 HCI 和硬件，ai4sci/health 的什么都有，交叉偏多。这种我认为可以参加蹭下 free food。整体还是扯皮，略了。
 
-![alt text](6758b46be7970d3e70af74acac514c8.jpg)
+![alt text](./3rd_yr_fall/6758b46be7970d3e70af74acac514c8.jpg)
 
 第二个是一个 morgan stanley target to analyst
 intern 的。**没空的话，不推荐**。进来就是一帮人笔笔唠唠感觉也没学到啥，之后又是可以比作没有的 network，这能 network 到啥？一帮子人全部拥上去了，那能 share 到每个人的时间有多少？这种 event 真的是看上去鲜美实则毒瘤，有这空最好还是别去的好，不如自己约 coffee
@@ -90,7 +90,7 @@ chat 有效。
 dramatizer**。尤其是没有主办方没有过审的环节，嘉宾质量是参差不齐，难绷的一批，就是你只要是一个 random developer /
 或者是网红。最后是自己竹篮打水一场空，发现 speaker 把网上都找得到的信息反复说了好几遍，其实都是为了向场下的投资者装逼罢了。不过中途看到不少 cmu junior 或者是 current
 phd，所以当自己做出来一些能装逼的东西之后，是可以拿上去装逼的。But for a researcher and a dev, you can get nothing out of it but some random stikers and a cupnoodle。
-![alt text](c4826dae9367c24b6615f9ccec03f45.jpg) [alt text](df5e62210a8e0aa4d3905063bc3aac7.jpg)
+![alt text](./3rd_yr_fall/c4826dae9367c24b6615f9ccec03f45.jpg) [alt text](./3rd_yr_fall/df5e62210a8e0aa4d3905063bc3aac7.jpg)
 
 最近也是感觉自己想要的太多了。每个人都有自己爱好，但是要知道在企业或者学校老板那里自己就是一个**技术工种**罢了。自己是 sde 就约 sde，research 就好好找 research，不要羡慕别人 analyst 的那一份。不属于自己的再追求也是浪费自己的时间。对我来说，我认为
 
@@ -145,7 +145,7 @@ BLG 加油
 
 **社交**：认清自己的道路。最近总是发现有些人 99%的人的能力/智商真的是远远不如（不跟他们社交），与其花费一堆时间建立所谓兄弟情谊不如好好打磨自己，或者花更多时间找志同道合的人。CS 的可以看看知乎同步一下节奏，多花点时间在自己身上，做些 proj 学点东西自己玩玩学学是真的。
 
-![alt text](image-6.png)
+![alt text](./3rd_yr_fall/image-6.png)
 之前一段时间还挺想换个人设的 --
 想多多建立社交以此走上人生巅峰。我的评价是真的是中二病犯了，大多数只是个打酱油的罢了，在米国这里又不是什么白男二代，真心不如好好放心思在自己身上，拒绝一些无用的社交。好好打理自己的形象也好，cos 也好，练拳健身也好，窝在家里打 R6，写爬虫 ml 搭分布式读论文也好。最重要的是不要分心，找到自己喜欢干的事情一心冲，认真的做事情，而不是随波逐流。
 
@@ -170,16 +170,16 @@ random update 一下。
 
 上课太无聊水会纸呼。。
 
-![alt text](image-7.png)
+![alt text](./3rd_yr_fall/image-7.png)
 comment: harsh一点没毛病，减少点社交，对自己好点是真的
 
-![alt text](image-8.png)
+![alt text](./3rd_yr_fall/image-8.png)
 comment:想起来感觉学一下 arch 的确是有帮助的。。。有点后悔在实习的时候没跟导师多读点 arch paper。。。感觉得多多沉淀了，不要太急，打好基础确实是比较重要的。
 
-![alt text](image-9.png)
+![alt text](./3rd_yr_fall/image-9.png)
 comment：自信确实很重要
 
-![alt text](image-10.png)
+![alt text](./3rd_yr_fall/image-10.png)
 comment：能共情。。
 
 另外：写代码之前需要思考。
