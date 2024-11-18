@@ -5,7 +5,12 @@ categories:
     - learn
 ---
 
-这门课是今年心智影响最大的课，也是几乎整个学期最有趣的一门课，因此我专门写一篇blog。我在这门课开始时预期会dive into discussion and elaborate on arguments。但是上过之后才发现lecture大多都是通过现有的科技设备进行一个metaphysics，value，epistemologics的大思考，在lecture上对argument逻辑思考都是点到为止。（相当于是让你对哲学的基本问题有个认识，同时介绍了哲学史上一些有名的argument并且让你做一些小的辩证的思考）但是自己写paper的时候还是要注重logics。以下通俗的讲下对上完这门课总览，我的感受，我对哲学这门学科的理解，以及我从哲学中收获了什么。
+![](oculus.jpg)
+
+这门课是今年心智影响最大的课，也是几乎整个学期最有趣的一门课，因此我专门写一篇blog。我在这门课开始时预期会很正式，但是上过之后才发现lecture大多都是通过现有的科技设备进行一个metaphysics，value，epistemologics的大思考，在lecture上对argument逻辑思考都是点到为止。（相当于是让你对哲学的基本问题有个认识，同时介绍了哲学史上一些有名的argument并且让你做一些小的辩证的思考）但是自己写paper的时候还是要注重logics。以下通俗的讲下对上完这门课总览，我的感受，我对哲学这门学科的理解，以及我从通识哲学课中收获了什么。
+
+
+## 一些感受
 
 1. 首先像普通的哲学课一样他会不断地question你去思考一个argument是否正确。这样我深刻的认识到相信一个信条的代价是非常大的。推出一系列看似合理的idea其实大部分人都可以，证明他是合理的很难。
    
@@ -30,8 +35,6 @@ So: either
 当然我觉得这个很大的问题是simulation的cost相当之大。假设你用了很多的内存来仅仅精准模拟一个原子的状态机，那么这个代价是天顶天的。很多非工科的学生对cost和performance之间的关系观察力很有限，他们并不会从这种偏经验的方向去argue against一个观点。
 
 4. 有关思想实验。
-![](oculus.jpg)
-_David Chalmers在用oculus来演示究竟有多沉浸哈哈哈哈哈哈哈_
 
 在讨论实用主义的时候（An action is right if it produces the greatest good for the greatest number of people），教授引入了电车难题来challenge实用主义的观点，因为显然很多人并不是这么想的。
 
@@ -88,4 +91,4 @@ again，x的意义的多少取决于相信x的对象。你如果相信x，那么
 C: So everything is meaningful. 
 
 **小总。**
-显然逻辑的语言远远不止ifthen structure，但是我目前不太想前进了。这是一场大开眼见的旅行。感恩。
+显然逻辑的语言远远不止if then structure，但是我目前不太想前进了。这是一场大开眼见的旅行。感恩。
