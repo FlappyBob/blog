@@ -1,7 +1,8 @@
 ---
 title: 在华为intern的那些天
 date: 2024-7-4 20:23:11
-tags:
+categories:
+    - life
 ---
 
 ### 7.4 入职一会了
