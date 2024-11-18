@@ -1,7 +1,8 @@
 ---
 title: 地球online中的良性资产(持续更新)
 date: 2024-5-17 20:57:41
-tags:
+categories:
+    - misc 
 ---
 
 一些良性资产我归档一下。
