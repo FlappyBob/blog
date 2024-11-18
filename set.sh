@@ -1,7 +1,7 @@
 generate new post
 
 # 不能有空格！
-pname="what-is-a-good-character"
+pname="intern-1"
 hexo new post ${pname}
 
 # hexo new page archives
