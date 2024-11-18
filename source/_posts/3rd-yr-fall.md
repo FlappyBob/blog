@@ -65,7 +65,8 @@ go
 我是一直粉 xun 子的 --
 我看到 xun 不爽的操作也喷；他的指挥有时候会过勇了，效果也不会好。但是我还是衷心希望 xun 子能越打越好，带队伍赢游戏。他操作不是世界第一，甚至在队内都是垫底的，但他绝对想队伍好而不是只想自己打出神操作的那种人
 -- 他绝对是一个懂队友的好朋友。
-![alt text](./3rd_yr_fall/image-4.png) [alt text](./3rd_yr_fall/image-5.png)
+![alt text](./3rd_yr_fall/image-4.png) 
+![alt text](./3rd_yr_fall/image-5.png)
 **欢迎回来，彭立勋。**
 
 ## 10/26 网络热传 event 鉴定 / 热传 NYU 学生鉴定。
