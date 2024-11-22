@@ -120,3 +120,8 @@ comment：自信确实很重要
 ![alt text](./3rd_yr_fall/image-10.png)
 comment：能共情。。
 
+## 11/21 ramdom mark...
+
+刚刚又因为选课破防了。。。
+
+系统教授所有都是1小时内回消息，AI教授除了Ren是一个不回。。。这就是我们CDS AI吗。我太想进步了，求求大佬带带我。。。
