@@ -1634,19 +1634,19 @@ code {
   margin: 1rem 0;
   padding: 10px 15px;
   border-radius: 4px;
-  background: #2a062c;
+  background: #fff;
   font-family: "Microsoft YaHei", "Aria", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
   margin: -5px 0 5px;
-  color: #d31969;
+  color: #fff;
   font-size: 0.9em;
   transform: scale(1);
 }
 .highlight figcaption a {
   float: right;
-  color: #d31969;
+  color: #fff;
   font-style: italic;
   font-size: 0.8em;
   background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
@@ -1655,7 +1655,7 @@ code {
   background-repeat: repeat-x;
 }
 .highlight figcaption a:hover {
-  color: #e83b85;
+  color: #fff;
 }
 .highlight figcaption:before,
 .highlight figcaption content: "" {
