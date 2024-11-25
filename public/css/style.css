@@ -1613,7 +1613,7 @@ pre {
   border: 1px dotted #d31969;
   border-radius: 4px;
   font-size: 13px;
-  font-family: "Microsoft YaHei", "Aria", monospace;
+  font-family: "Consolas", "Courier", monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1635,7 +1635,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #e8d3dc;
-  font-family: "Microsoft YaHei", "Aria", monospace;
+  font-family: "Consolas", "Courier", monospace;
   -webkit-border-radius: 4px;
 }
 .highlight figcaption {
