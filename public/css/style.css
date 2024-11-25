@@ -482,7 +482,7 @@ body {
   color: #dce0e3;
   font-weight: 400;
   font-size: 17px;
-  font-family: "Microsoft YaHei", "Aria", monospace;
+  font-family: Times-New-Roman, "Microsoft YaHei", "Aria", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   -moz-osx-font-smoothing: grayscale;
@@ -1432,7 +1432,7 @@ article .content .caption {
   font-display: swap;
   font-weight: 400;
   font-size: 13.600000000000001px;
-  font-family: "Microsoft YaHei", "Aria", monospace;
+  font-family: Times-New-Roman, "Microsoft YaHei", "Aria", monospace;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   text-align: center;
