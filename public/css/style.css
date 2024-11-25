@@ -1640,13 +1640,13 @@ code {
 }
 .highlight figcaption {
   margin: -5px 0 5px;
-  color: #e52376;
+  color: #d31969;
   font-size: 0.9em;
   transform: scale(1);
 }
 .highlight figcaption a {
   float: right;
-  color: #e52376;
+  color: #d31969;
   font-style: italic;
   font-size: 0.8em;
   background-image: linear-gradient(transparent, transparent 10px, rgba(86,124,119,0.4) 10px, rgba(86,124,119,0.4));
@@ -1655,7 +1655,7 @@ code {
   background-repeat: repeat-x;
 }
 .highlight figcaption a:hover {
-  color: #ea4f91;
+  color: #e83b85;
 }
 .highlight figcaption:before,
 .highlight figcaption content: "" {
