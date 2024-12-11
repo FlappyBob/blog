@@ -27,10 +27,10 @@ This is [me](./index/avatar.jpg)
 
 我希望真正的OASIS能够被一众程序员实现出来，我也希望我能接近成为像John Carmack这种**颠覆规则的程序员**的角色。
 
-_我还得感谢我的老爸，我感觉很大一部分性格塑造都是和他玩游戏_
-
+*电影ready player one中的oasis创始人*
 [James_Halliday](./index/James_Halliday.webp)
 
+_我还得感谢我的老爸，我感觉很大一部分性格塑造都是和他玩游戏_
 
 #### 我有一些最爱的meme们。
 
