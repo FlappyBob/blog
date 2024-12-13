@@ -1,7 +1,7 @@
 ---
 title: "NYU OS log"
 date: 2024-01-21T22:10:11-04:00
-tags:
+categories:
   - learn
 ---
 
