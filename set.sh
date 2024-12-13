@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="6.824"
+pname="Operating-System"
 hexo new post ${pname}
 
 # flow: 
