@@ -119,6 +119,6 @@ BLG还是不要放弃，就跟 22 年的 T1 一样，重整旗鼓绝对有机会
 寒假就宅仙了。
 
 
-## 看的乐的random meme（这学期）
+<!-- ## 看的乐的random meme（这学期） -->
 
-![alt text](./3rd_yr_fall/7e87f907adaff1485774d00dccf5fbc.png)
+<!-- ![alt text](./3rd_yr_fall/7e87f907adaff1485774d00dccf5fbc.png) -->
