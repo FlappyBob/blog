@@ -5,33 +5,25 @@ categories:
   - learn
 ---
 
-可以看一下课程主页，作业的环境是docker里配好的。
 webpage: https://cs.nyu.edu/~mwalfish/classes/24sp/
 lab： https://github.com/nyu-cs202/labs
 
 ## Lecture 1
 
-Abstraction that os did:
+### 为什么学习OS? 
+我们每天都会跟OS打交道，思考一台电脑是：
+- disk
+- cpu
+- battery
+- bus & iodevice (popular are monitor / keyboard / touchbar / mouse)
+- 。。。 
 
-- file system:
-  abstraction: seq of bytes.
-  isolation: hiding user's files.
+的集合。OS做的就是把这一坨，硬不拉几的东西做的可以和人类沟通。
+- 比如让东西显示在显示器上。
 
-- text input:
-  abstraction: linear stream
-  isolation: chars go to the intended app
+如果你想解密，那么我认为OS是一门非常好的system探险课。
 
-- memory:
-  abstraction: very large conceivable memory
-  isolation: processes cannot access each other's memory
-
-- scheduling:
-  abstraction: continuous execution  
-  isolation: one heavy consumer cannot dominate the cpu.
-
-### Why should we learn OS? 
-
-1. 一张梗图。“我们都是要成为AI engineer的，为什么要学os?" mike说正是AI engineer需要和硬件交朋友。首先require大算力的应用只会越来越被需要，这个时候学会和真正的物理资源打交道是很有必要的，这种只会被无限的需求，因为在抽象层是充满了很多细节要被优化的。最要被替代的是那些只会照猫画虎调参的。这是从实用角度为什么要学os/sys的原因。**算力本身是电力，学会如何和算力打交道是大势所趋**，因为他相当基础且需求大，它很少会被替代。
+1. “我们现在都要work with AI的，为什么要学os?" 正是AI engineer需要和硬件交朋友。首先require大算力的应用只会越来越被需要，这个时候学会和真正的物理资源打交道是很有必要的，这种只会被无限的需求，因为在抽象层是充满了很多细节要被优化的。最要被替代的是那些只会照猫画虎调参的。这是从实用角度为什么要学os/sys的原因。**算力本身是电力，学会如何和算力打交道是大势所趋**，因为他相当基础且需求大，它很少会被替代。
 
 2. Hardware是ugly的，从软件工程师的角度。如果没有好的design，那么deal with hardware everyday无疑是一个劳动密集的工作。正是因为有这层抽象，让写码本身变得优雅了很多。这是从美学的角度的一个为什么学os的原因。它**简单，强大，优雅。**
 
@@ -70,10 +62,10 @@ https://cs.nyu.edu/~qc1127/classes/24fa/lectures/handout03.pdf
 
 ## Lecture 4: Shell I
 
-- What does fork do?
-fork很简单不赘述了。
+### fork 
 
-- what does execve do?
+
+### execve
 
 > execve() executes the program referred to by pathname. This causes the program that is currently being run by the calling process to be replaced with a new program, with newly initialized stack, heap, and (initialized and uninitialized) data segments
 
@@ -1649,10 +1641,20 @@ Context Switch本身太依赖实现来讲lecture，我就直接post这个ppt了�
 
 ## Lecture 18: Disks
 
-热知识：
-
-- Google, Facebook, etc. historically packed their data centers full of cheap, old disks.
-- large cloud infrastructures还是在用disk。
+ -------------
+	|          platter
+	| ------------
+	|
+	|
+	| ------------
+	|          platter
+	| ------------
+        |
+	|
+	| ------------
+	|          platter
+	| ------------
+	|  
 
 ![alt text](./NYU_OS/image-63.png)
 
