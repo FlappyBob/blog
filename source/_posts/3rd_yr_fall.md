@@ -114,9 +114,9 @@ BLG还是不要放弃，就跟 22 年的 T1 一样，重整旗鼓绝对有机会
 3. 朋友家人都鼓励
 4. 一节课请了不少方向researcher（大多是cv，robotics）来，感觉都挺有意思。researcher都相当有热情，有点被感染。
 
-就感觉定了下心来了.
-
+就感觉定了下心来了 
 
 <!-- ## 看的乐的random meme（这学期） -->
 
 <!-- ![alt text](./3rd_yr_fall/7e87f907adaff1485774d00dccf5fbc.png) -->
+
