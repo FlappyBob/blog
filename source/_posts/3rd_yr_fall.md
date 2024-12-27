@@ -120,6 +120,5 @@ BLG还是不要放弃，就跟 22 年的 T1 一样，重整旗鼓绝对有机会
 
 <!-- ![alt text](./3rd_yr_fall/7e87f907adaff1485774d00dccf5fbc.png) -->
 
-## 12/25 圣诞快乐
-
-刚刚看了IG和EDG夺冠纪录片，太激动了。
+*刚刚看到的，说的真的很好*
+![alt text](./3rd_yr_fall/image-1.png)
