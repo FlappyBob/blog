@@ -14,7 +14,7 @@
 <meta property="og:description" content="摸爬滚打的学习小tip 刚刚上手一门新课的时候写cheatsheet挺有用的，遇到一个module想把它存到自己脑子的cache里，写下来比潦草看一遍进脑子有效多了，别看这方法笨，手动的快一点其实速度不差的。当然，到信手拈来的时候就没记录必要了，但是一开始学是有必要的，我脑子笨。 如果要长期写某项语言，最好还是自己开个online terminal用下（数值计算课还真是大爹），当然，拿blog写个">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-12-17T04:52:07.000Z">
-<meta property="article:modified_time" content="2025-01-02T06:30:56.805Z">
+<meta property="article:modified_time" content="2025-01-02T06:32:41.722Z">
 <meta property="article:author" content="Shengtao Yao">
 <meta name="twitter:card" content="summary">
     
@@ -205,7 +205,7 @@
 <p>我认为assignment2的重心在于大规模实验中理解paper的insight。而我感觉这节课也是花了很多时间培养这些insight的，加了bn,dropout之后的实验observation，大量观察所带来的认知基础是非常有价值，很像做物理实验的赶脚。</p>
 <p>除了实验部分很喜欢之外，我认为最有趣的部分是自己手写batch normalization图和在纸上复现那些算子的时候，让我对图和NN之间的联系产生了不少的兴趣（224w启动）</p>
 <p><em>convnet完结</em></p>
-<h3 id="Assignment-3"><a href="#Assignment-3" class="headerlink" title="Assignment 3"></a>Assignment 3</h3><p>到了这部分就是researchy的部分了，大多数都和Net架构有关。</p>
+<h3 id="Assignment-3"><a href="#Assignment-3" class="headerlink" title="Assignment 3"></a>Assignment 3</h3><p>到了这部分就是最精彩的部分了，大多数都和Net架构有关。</p>
 <h4 id="一些好习惯-1"><a href="#一些好习惯-1" class="headerlink" title="一些好习惯"></a>一些好习惯</h4><ul>
 <li>还是以作业&#x2F;读代码&#x2F;自我思考&#x2F;看paper为主。lecture可以当小品看（让我记得最牢的是一个学生问怎么想出LSTM这种架构，justin说“这就是research” xswl）别人讲的记得不牢。</li>
 <li>多在纸上画图。RNN一开始我非常不理解，但是画下来一切就在脑海中浮现出来了。以此看来记下东西的确学的更深，大脑的存储更加persistent。<ul>
@@ -227,11 +227,11 @@
 
 <p>solver的使用：loss_history怎么管理，optim怎么用。。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">_step</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Make a single gradient update. This is called by train() and should not</span></span><br><span class="line"><span class="string">        be called manually.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Make a minibatch of training data</span></span><br><span class="line">        minibatch = sample_coco_minibatch(</span><br><span class="line">            <span class="variable language_">self</span>.data, batch_size=<span class="variable language_">self</span>.batch_size, split=<span class="string">&quot;train&quot;</span></span><br><span class="line">        )</span><br><span class="line">        captions, features, urls = minibatch</span><br><span class="line"></span><br><span class="line">        captions_in = captions[:, :-<span class="number">1</span>]</span><br><span class="line">        captions_out = captions[:, <span class="number">1</span>:]</span><br><span class="line"></span><br><span class="line">        mask = captions_out != <span class="variable language_">self</span>.model._null</span><br><span class="line"></span><br><span class="line">        t_features = torch.Tensor(features)</span><br><span class="line">        t_captions_in = torch.LongTensor(captions_in)</span><br><span class="line">        t_captions_out = torch.LongTensor(captions_out)</span><br><span class="line">        t_mask = torch.LongTensor(mask)</span><br><span class="line">        logits = <span class="variable language_">self</span>.model(t_features, t_captions_in)</span><br><span class="line"></span><br><span class="line">        loss = <span class="variable language_">self</span>.transformer_temporal_softmax_loss(logits, t_captions_out, t_mask)</span><br><span class="line">        <span class="variable language_">self</span>.loss_history.append(loss.detach().numpy())</span><br><span class="line">        <span class="variable language_">self</span>.optim.zero_grad()</span><br><span class="line">        loss.backward()</span><br><span class="line">        <span class="variable language_">self</span>.optim.step()</span><br></pre></td></tr></table></figure>
+
+
 <!-- ``` python
  ``` -->
 
-<pre><code>&lt;!-- &#123;% asset_img "image.png" "alt text" %&#125; --&gt;
-</code></pre>
 <!-- ### 完结
 nice intro to dl。 -->
   </div>
