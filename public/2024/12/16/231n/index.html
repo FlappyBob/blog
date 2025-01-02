@@ -15,7 +15,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://flappy.name/2024/12/16/231n/image.png">
 <meta property="article:published_time" content="2024-12-17T04:52:07.000Z">
-<meta property="article:modified_time" content="2025-01-01T06:26:39.514Z">
+<meta property="article:modified_time" content="2025-01-02T04:37:34.114Z">
 <meta property="article:author" content="Shengtao Yao">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://flappy.name/2024/12/16/231n/image.png">
@@ -128,7 +128,7 @@
     
     
       <div id="toc">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%B8%E7%88%AC%E6%BB%9A%E6%89%93%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%B0%8Ftip"><span class="toc-number">1.</span> <span class="toc-text">摸爬滚打的学习小tip</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF"><span class="toc-number">1.2.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF-1"><span class="toc-number">1.3.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%B8%E7%88%AC%E6%BB%9A%E6%89%93%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%B0%8Ftip"><span class="toc-number">1.</span> <span class="toc-text">摸爬滚打的学习小tip</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF"><span class="toc-number">1.2.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF-1"><span class="toc-number">1.3.1.</span> <span class="toc-text">一些好习惯</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Transformer"><span class="toc-number">1.3.2.</span> <span class="toc-text">Transformer</span></a></li></ol></li></ol></li></ol>
       </div>
     
   </span>
@@ -209,13 +209,19 @@
 <p><em>convnet完结</em></p>
 <h3 id="Assignment-3"><a href="#Assignment-3" class="headerlink" title="Assignment 3"></a>Assignment 3</h3><p>到了这部分就是researchy的部分了，大多数都和Net架构有关。</p>
 <h4 id="一些好习惯-1"><a href="#一些好习惯-1" class="headerlink" title="一些好习惯"></a>一些好习惯</h4><ul>
-<li><p>还是以作业&#x2F;读代码&#x2F;自我思考&#x2F;看paper为主。lecture可以当小品看（让我记得最牢的是一个学生问怎么想出LSTM这种架构，justin说“这就是research” xswl）别人讲的记得不牢。</p>
-</li>
-<li><p>多在纸上画图。RNN一开始我非常不理解，但是画下来一切就在脑海中浮现出来了。以此看来记下东西的确学的更深，大脑的存储更加persistent。</p>
-<ul>
+<li>还是以作业&#x2F;读代码&#x2F;自我思考&#x2F;看paper为主。lecture可以当小品看（让我记得最牢的是一个学生问怎么想出LSTM这种架构，justin说“这就是research” xswl）别人讲的记得不牢。</li>
+<li>多在纸上画图。RNN一开始我非常不理解，但是画下来一切就在脑海中浮现出来了。以此看来记下东西的确学的更深，大脑的存储更加persistent。<ul>
 <li>我感觉很多论文intuition来自对gradient flow的感知，比如LSTM和resnet的“highway”架构就解决了gradient爆炸和gradient消失的问题，而没有观察是很难“感受”到这些问题的。多多观察计算图。</li>
 </ul>
-  <img src="/2024/12/16/231n/image.png" class="" title="alt text"></li>
+</li>
+</ul>
+<h4 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h4><p>大部分参考的这个,transformer: <a target="_blank" rel="noopener" href="https://jalammar.github.io/illustrated-transformer/">https://jalammar.github.io/illustrated-transformer/</a></p>
+<ul>
+<li>最好还是先学下NLP，熟悉下wordvec这些概念，一开始的W，D，H，W这些维度搞得我头昏眼花的，</li>
+<li>遇到常数差异的方程不要用for loop，多用broadcast功能来简化。<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">div_term = torch.exp(torch.arange(<span class="number">0</span>, embed_dim, <span class="number">2</span>) * (-torch.log(torch.tensor(<span class="number">10000.0</span>).reshape(<span class="number">1</span>, <span class="number">1</span>)) / embed_dim))</span><br><span class="line">pe[<span class="number">0</span>, :, <span class="number">0</span>::<span class="number">2</span>] = torch.sin(position * div_term)  <span class="comment"># Even dimensions</span></span><br><span class="line">pe[<span class="number">0</span>, :, <span class="number">1</span>::<span class="number">2</span>] = torch.cos(position * div_term)  <span class="comment"># Odd dimensions</span></span><br></pre></td></tr></table></figure>
+
+
+  <!-- <img src="/2024/12/16/231n/image.png" class="" title="alt text"> --></li>
 </ul>
 <!-- ### 完结
 nice intro to dl。 -->
@@ -247,7 +253,7 @@ nice intro to dl。 -->
     
     
       <div id="toc-footer" style="display: none">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%B8%E7%88%AC%E6%BB%9A%E6%89%93%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%B0%8Ftip"><span class="toc-number">1.</span> <span class="toc-text">摸爬滚打的学习小tip</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF"><span class="toc-number">1.2.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF-1"><span class="toc-number">1.3.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%91%B8%E7%88%AC%E6%BB%9A%E6%89%93%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%B0%8Ftip"><span class="toc-number">1.</span> <span class="toc-text">摸爬滚打的学习小tip</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF"><span class="toc-number">1.2.1.</span> <span class="toc-text">一些好习惯</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%A5%BD%E4%B9%A0%E6%83%AF-1"><span class="toc-number">1.3.1.</span> <span class="toc-text">一些好习惯</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Transformer"><span class="toc-number">1.3.2.</span> <span class="toc-text">Transformer</span></a></li></ol></li></ol></li></ol>
       </div>
     
 
