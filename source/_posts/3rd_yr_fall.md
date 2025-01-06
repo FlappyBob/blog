@@ -73,7 +73,10 @@ BLG还是不要放弃，就跟 22 年的 T1 一样，重整旗鼓绝对有机会
 
 是看了这篇博客改观的。[现在的大学生是什么样子的呢?](https://www.zhihu.com/question/623983985/answer/11042537772)
 
-一定要以问题为导向做research，为解决一个问题而兴奋是最好的mindset，而不是goal oriented，你一定要记住这一点。
+
+![alt text](./3rd_yr_fall/image-10.png)
+
+首先是心态：一定要以问题为导向做research，为解决一个问题而兴奋是最好的mindset，而不是goal oriented，你一定要记住这一点。希望自己之后的work能有点impact吧。
 
 ## 3rd year fa的完结
 
@@ -85,4 +88,3 @@ BLG还是不要放弃，就跟 22 年的 T1 一样，重整旗鼓绝对有机会
  ![alt text]( ./3rd_yr_fall/image-1.png)
 
 眼见为实。
-
