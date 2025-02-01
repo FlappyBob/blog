@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="meme"
+pname="Nutrition_and_Health"
 hexo new post ${pname}
 
 # flow: 
