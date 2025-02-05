@@ -144,3 +144,30 @@ Ans:
 1. Considering the convineience and low-cost of the ultra-processed food, I think it is irreplaceable type of food that family in low economic status.
 2. Considering the junk food that depicts what we generally think what "ultra-processed food" means, I realized it should be overall avoided because some bad stuff is happening during the manufacturing process. 
 3. And another thing I just realized is that "ultra" term is over exaggerated for its horrorness. This term originally means to process food heavier. If we put nutritious thing together in a safe way, it is "ultra-processed", but it is still nutritious and healthy.   
+
+
+
+## Lecture 2 
+
+### Link 
+*Dietary Guidelines for Americans 2020 - 2025 
+*Dietary Guidelines for Americans 2025 - 2030
+
+
+1. What is the same? 
+ans: 
+
+Both guidelines ask us to focus on 1. chronic diseases possibly casued by diet especially cardiovascular disease in all types of population. 2. "healthy dietary pattern" which askes us to consume more vegetables, fruits, while avoiding food with added sugars, sodium, and saturated fats. 3. Use lifespan approach in designing methogologies, It is essential "from growth and development during pregnancy and childhood through healthy aging during adulthood." Generally both suggest it is more important to focus on nutrition of food when you are young. 4. cultural responsiveness. Both enbcourage dietary guidance that respects cultural food preferences and traditions varied in differnt culture. 
+
+
+2. What is different? 
+ans: I think overall the second one is more detailed in the methodologies in all aspects. Here are how --  
+a. In healthy dietary pattern design, it suggests what exact food should appear and what food you should avoid. The second one concerns more on Beverages and food of saturated fat. (I guess it is because it is harmful and often ignored by the public). Take an example, the new guidelines reinforce that water and other good baverages should be the primary beverage choice while discouraging high consumption of sugary drinks
+
+b. The second introduces new strategies for individuals and families to improve diet quality and manage weight, like Frequency of Meals and/or Snacking, Portion Size. 
+
+c. Culturally more inclusive in 2025 HUSS. For example, in diet simulation population target includes American Indian and Alaska Native populations. 
+
+3. What are your thoughts on what has changed and what has stayed the same? 
+ans: 
+The most important quality of The 2025 to 2030 guideline is that it is more **detailed**, and easy for people to design their goals. Specifying the importance is easy but designing specific plans are difficult, like telling people how to control meal frequency, portion are much more educative than just telling people to simply eat less or eat more. Same for the food choices, the expanded focus on avoiding exact beverages and saturated fat is more important than just telling people to eat healthily.
