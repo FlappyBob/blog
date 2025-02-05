@@ -118,3 +118,29 @@ exchange health food with ultra-processed food like chips, soda, bagged bread, f
 About **processed** food or not processsed food  -> quite debated like milk 
 
 NOVAt defines an unprocessed food as one that comes directly from a plant or animal, like a fresh-picked apple.
+
+### Link  
+first: https://time.com/7007857/ultra-processed-foods-advocate/
+second: https://time.com/6245237/ultra-processed-foods-diet-bad/
+
+1. What do these articles define ultra-processed foods as? Do you see any differences between the two articles in their definitions?
+
+Ans: 
+The first article suggests a fairly vague explanation towards "ultra-processed food" by saying different people (mostly different scientists, nutritionists) hold different opinions. It finally refers to definition from NOVA, which saying food that is made largely or entirely from oils, sugars, starches, and ingredients you wouldn’t buy yourself at the grocery store. Second article suggests it as food "made mostly or entirely from substances derived from foods and additives". 
+
+I found that the first definition put more focus on ingredients like "oils, sugars, starches". 
+
+2. Why are ultra-processed foods deemed harmful? What are some health outcomes linked to their consumption? 
+Ans: Most food after ultra processing even lost the original health benefits from their ingredients (vegetables included) and even contributes to bad outcomes. And there is high risk of gaining extra weight when consuming untra-processed food. One experiment in Article one suggests for same amount of nutrition profile for both unprocessed food and ultra-processed food, people tend to eat more ultra-processed ones, which lead to high risk of obesity
+
+
+3. What are some situations where ultra-processed foods can be seen as less harmful or even practical in someone's diet?
+Ans: 
+Some ultra-processesd food like whole grain just mean to reformulate food but not like traditional "junk food" with lots of bad ingredients like salt and unsatuated fat added. Furthermore, A wrapper that contain many more nutritious ingredients is better than eat rice only. And for family with tight budget, ultra-processesd food is always a better option than hard-to-cook fresh meal that can't even make your family full. It is cheap and easy.
+
+4. What are your opinions on ultra-processed foods? Did either of these articles change your opinions?
+Ans: 
+
+1. Considering the convineience and low-cost of the ultra-processed food, I think it is irreplaceable type of food that family in low economic status.
+2. Considering the junk food that depicts what we generally think what "ultra-processed food" means, I realized it should be overall avoided because some bad stuff is happening during the manufacturing process. 
+3. And another thing I just realized is that "ultra" term is over exaggerated for its horrorness. This term originally means to process food heavier. If we put nutritious thing together in a safe way, it is "ultra-processed", but it is still nutritious and healthy.   
