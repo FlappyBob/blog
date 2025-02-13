@@ -171,3 +171,21 @@ c. Culturally more inclusive in 2025 HUSS. For example, in diet simulation popul
 3. What are your thoughts on what has changed and what has stayed the same? 
 ans: 
 The most important quality of The 2025 to 2030 guideline is that it is more **detailed**, and easy for people to design their goals. Specifying the importance is easy but designing specific plans are difficult, like telling people how to control meal frequency, portion are much more educative than just telling people to simply eat less or eat more. Same for the food choices, the expanded focus on avoiding exact beverages and saturated fat is more important than just telling people to eat healthily.
+
+## Lecture 3
+
+In what ways does the microbiome communicate with us? 
+
+Ans: "The brain and gut are in constant communication and that changes in the microbiome are linked to mood and mental health." Explicitly, people with specific biological structures tends to be more resilient in stressful events. Biologically, the microbiome can produce short-chain fatty acids that help maintain the gut barrier and exert an anti-inflammatory effect on the brain, among other things.
+
+What effect does stress have on the microbiome? 
+
+Ans: "In the context of stress, scientists have found even short term exposure to stress can lead to alterations in the microbiome, and that changing the composition of the microbiome could make some mice more resilient to stress." This means that stress can somewhat effect microbiome in gut and microbiome can in turn effect how you response to the stress. It is actually a cycle-like effect. One specific example would be that certain microbiome can generate short-chain fatty acids that "exert an anti-inflammatory effect on the brain". And it turns out that people with depression were found to be lack of those microbiome. 
+
+Based on this article, would you recommend a probiotic supplement to someone looking to have impacts on their mental health? Why or why not?
+
+Ans: As the articlce is saying: 'complexity of the microbiome calls for a different approach than what’s typically used in pharmaceutical development, which tends to focus on finding a single molecule or drug.' Current research only build up the logical connection between guts and brain. It theoretically works but not the effect is not tested well. There are challenges faced during testing stages like how do we exactly detect the 'brain activities' of the testers. So generally my answer would be a mild "not sure". 
+
+What foods are generally recommended to promote a healthy microbiome? 
+
+Ans: In the article, two studies are briefly introduced. They indicate that first --  'certain diets (one rich in fermented foods) can reduce inflammation.' (like yogurt, kefir, fermented cottage cheese, kimchi and other fermented vegetables, vegetable brine drinks, and kombucha tea) Second, in the article mentioned. (link -> https://www.nature.com/articles/s41380-022-01817-y)'whole grains, prebiotic fruits and vegetables, fermented foods, and legumes' can effectly influence microbes and positively relieve stress. 
