@@ -188,4 +188,16 @@ Ans: As the articlce is saying: 'complexity of the microbiome calls for a differ
 
 What foods are generally recommended to promote a healthy microbiome? 
 
-Ans: In the article, two studies are briefly introduced. They indicate that first --  'certain diets (one rich in fermented foods) can reduce inflammation.' (like yogurt, kefir, fermented cottage cheese, kimchi and other fermented vegetables, vegetable brine drinks, and kombucha tea) Second, in the article mentioned. (link -> https://www.nature.com/articles/s41380-022-01817-y)'whole grains, prebiotic fruits and vegetables, fermented foods, and legumes' can effectly influence microbes and positively relieve stress. 
+Ans: In the article, two studies are briefly introduced. They indicate that first --  'certain diets (one rich in fermented foods) can reduce inflammation.' (like yogurt, kefir, fermented cottage cheese, kimchi and other fermented vegetables, vegetable brine drinks, and kombucha tea) Second, in the article mentioned. (link -> https://www.nature.com/articles/s41380-022-01817-y)'whole grains, prebiotic fruits and vegetables, fermented foods, and legumes' can effectly influence microbes and positively relieve stress.
+
+
+## Lecture 4
+
+Match
+
+![alt text](02aacde7117164aeb52e5b5d6e230df.jpg)
+
+
+exam: 
+* photothessis
+* soluable fibers: what it is ? Waht types does it have? 
