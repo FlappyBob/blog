@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="写东西。"
+pname=""
 hexo new post ${pname}
 
 # flow: 
