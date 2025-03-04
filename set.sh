@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="2025spring回忆录"
+pname="ocaml"
 hexo new post ${pname}
 
 mkdir /home/flappy/my-blog/source/_posts/${pname}
