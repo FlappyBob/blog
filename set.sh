@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="ocaml"
+pname="随机性和自由意志"
 hexo new post ${pname}
 
 mkdir /home/flappy/my-blog/source/_posts/${pname}
