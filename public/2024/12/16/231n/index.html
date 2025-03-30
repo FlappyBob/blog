@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="一些小建议Assignment 1 完结 看笔记就足够了，然后直接写作业 刚刚上手一门新课的时候写cheatsheet挺有用的，遇到一个module想把它存到自己脑子的cache里，写下来比潦草看一遍进脑子有效多了，别看这方法笨，手动的快一点其实速度不差的。当然，到信手拈来的时候就没记录必要了，但是一开始学是有必要的，我脑子笨。 如果要长期写某项语言，最好还是多用。  chatbot是好帮手，但也">
+<meta property="og:type" content="article">
+<meta property="og:title" content="231n log">
+<meta property="og:url" content="https://flappy.name/2024/12/16/231n/index.html">
+<meta property="og:site_name" content="VA-11 HALL-B">
+<meta property="og:description" content="一些小建议Assignment 1 完结 看笔记就足够了，然后直接写作业 刚刚上手一门新课的时候写cheatsheet挺有用的，遇到一个module想把它存到自己脑子的cache里，写下来比潦草看一遍进脑子有效多了，别看这方法笨，手动的快一点其实速度不差的。当然，到信手拈来的时候就没记录必要了，但是一开始学是有必要的，我脑子笨。 如果要长期写某项语言，最好还是多用。  chatbot是好帮手，但也">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://flappy.name/2024/12/16/231n/image.png">
+<meta property="article:published_time" content="2024-12-17T04:52:07.000Z">
+<meta property="article:modified_time" content="2025-01-29T19:34:57.486Z">
+<meta property="article:author" content="Shengtao Yao">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://flappy.name/2024/12/16/231n/image.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>231n log</title>
+    <!-- async scripts -->
+    <!-- Google Analytics -->
+
+
+    <!-- Umami Analytics -->
+
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/true" title="VA-11 HALL-B" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fa-solid fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/links/">Links</a></li><!--
+     --><!--
+       --><li><a href="/academic">Academic Page</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2025/01/05/meme/"><i class="fa-solid fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2024/11/24/6-824/"><i class="fa-solid fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fa-solid fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://flappy.name/2024/12/16/231n/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2024/12/16/231n/&text=231n log"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2024/12/16/231n/&is_video=false&description=231n log"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=231n log&body=Check out this article: https://flappy.name/2024/12/16/231n/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2024/12/16/231n/&name=231n log&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2024/12/16/231n/&t=231n log"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    
+    
+      <div id="toc">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%BB%BA%E8%AE%AE"><span class="toc-number">1.</span> <span class="toc-text">一些小建议</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3 完结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Transformer"><span class="toc-number">1.3.1.</span> <span class="toc-text">Transformer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#GAN"><span class="toc-number">1.3.2.</span> <span class="toc-text">GAN</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8C%E7%BB%93%E4%BD%93%E9%AA%8C"><span class="toc-number">1.4.</span> <span class="toc-text">完结体验</span></a></li></ol></li></ol>
+      </div>
+    
+  </span>
+</div>
+
+    
+    <div class="content index py4 ">
+        
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle p-name" itemprop="name headline">
+        231n log
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author p-author h-card" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-name" itemprop="name">Shengtao Yao</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2024-12-17T04:52:07.000Z" class="dt-published" itemprop="datePublished">2024-12-16</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fa-solid fa-archive"></i>
+        <a class="category-link" href="/categories/learn/">learn</a>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content e-content" itemprop="articleBody">
+    <h2 id="一些小建议"><a href="#一些小建议" class="headerlink" title="一些小建议"></a>一些小建议</h2><h3 id="Assignment-1-完结"><a href="#Assignment-1-完结" class="headerlink" title="Assignment 1 完结"></a>Assignment 1 完结</h3><ul>
+<li>看笔记就足够了，然后直接写作业</li>
+<li>刚刚上手一门新课的时候写cheatsheet挺有用的，遇到一个module想把它存到自己脑子的cache里，写下来比潦草看一遍进脑子有效多了，别看这方法笨，手动的快一点其实速度不差的。当然，到信手拈来的时候就没记录必要了，但是一开始学是有必要的，我脑子笨。</li>
+<li>如果要长期写某项语言，最好还是多用。 </li>
+<li>chatbot是好帮手，但也仅仅是好帮手了。一开始对一个项目是什么都不了解的时候，比如一开始KNN的dataload和数据的dimension我就一点都没概念。直接上手放gpt里，一行一行读，gpt不详细的就google，然后写cheatsheet，这样效率非常高。</li>
+<li>然后写代码的时候也多多以矩阵思维思考，写代码的时候先考虑能不能先broadcast。比如这种的<code>dscores = probs; dscores[range(num_examples),y] -= 1; dscores /= num_examples</code>，how to vectorize calculation？see this: <a target="_blank" rel="noopener" href="https://cs231n.stanford.edu/vecDerivs.pdf">https://cs231n.stanford.edu/vecDerivs.pdf</a></li>
+<li>手算softmax loss导的时候挺struggle的（虽然结果很简洁），估计之后也有不少，可以看下知乎上的<code>矩阵求导术</code>。</li>
+</ul>
+<p>保姆级！</p>
+<p>整个课程的流程从architecture(svm&#x2F;softmax loss到gradient到network forward&#x2F;backward，到最后用这些积木搭建一个简化的NN)的设计，到设计优化过程（sgd, validation set来tune超参），然后对这些步骤逐步模块化(从全部塞在notebook里，到, 塞进layers.py然后用layer的积木搭fc_net&#x2F; 到最后的solver.py &#x2F; optim.py的调参炼丹术，并且彻底模块化)的过程都让我这个新手感觉非常保姆，因为这节课也是工程导向的，我认为设计得非常的好。</p>
+<h3 id="Assignment-2-完结"><a href="#Assignment-2-完结" class="headerlink" title="Assignment 2 完结"></a>Assignment 2 完结</h3><ul>
+<li>看笔记就足够了，然后直接写作业</li>
+<li>作业有很多子模块。对于正确性的测试都是课程方有一个绝对正确的版本。这也给了不少之后自己写算法的时候尽量模块化，不是为了美观，而是为了方便测试，循序渐进。</li>
+<li>炼丹（优化hyperparam）中循序渐进的例子。优化的时候一般一开始都是epoch非常小确保正确性和速度之后再调回来，先确保模块正确再优化，这是可以应用在所有代码实践中的基本素质。</li>
+<li>有了assignment1的基础之后，实现非常简单，大部分代码甚至可以在lecture notes里找到。我认为assignment2的重心在于大规模实验中理解paper的insight。而我感觉这节课也是花了很多时间培养这些insight的，加了bn,dropout之后的实验observation，大量观察所带来的认知基础是非常有价值，很像做物理实验的赶脚。</li>
+<li>除了实验部分很喜欢之外，我认为最有趣的部分是自己手写batch normalization图和在纸上复现那些算子的时候。</li>
+</ul>
+<h3 id="Assignment-3-完结"><a href="#Assignment-3-完结" class="headerlink" title="Assignment 3 完结"></a>Assignment 3 完结</h3><p>到了这部分就是离最research最近的部分了，大多数都和Net架构有关。</p>
+<ul>
+<li>还是以作业&#x2F;读代码&#x2F;自我思考&#x2F;看paper为主。lecture可以当小品看（让我记得最牢的是一个学生问怎么想出LSTM这种架构，justin说“这就是research” xswl）别人讲的记得不牢。</li>
+<li>多在纸上画图。RNN一开始我非常不理解，但是画下来一切就在脑海中浮现出来了。以此看来记下东西的确学的更深，大脑的存储更加persistent。<ul>
+<li>我感觉很多论文intuition来自对gradient flow的感知，比如LSTM和resnet的“highway”架构就解决了gradient爆炸和gradient消失的问题，而没有观察是很难“感受”到这些问题的。多多观察计算图。</li>
+</ul>
+</li>
+</ul>
+<h4 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h4><p>大部分参考的这个,transformer: <a target="_blank" rel="noopener" href="https://jalammar.github.io/illustrated-transformer/">https://jalammar.github.io/illustrated-transformer/</a></p>
+<ul>
+<li>最好还是先学下NLP，熟悉下wordvec这些概念，一开始的word_to_idx,vocab_size,word_size搞得我头昏眼花的，</li>
+<li>遇到常数差异的方程不要用for loop，多用broadcast功能来简化。<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">div_term = torch.exp(torch.arange(<span class="number">0</span>, embed_dim, <span class="number">2</span>) * (-torch.log(torch.tensor(<span class="number">10000.0</span>).reshape(<span class="number">1</span>, <span class="number">1</span>)) / embed_dim))</span><br><span class="line">pe[<span class="number">0</span>, :, <span class="number">0</span>::<span class="number">2</span>] = torch.sin(position * div_term)  <span class="comment"># Even dimensions</span></span><br><span class="line">pe[<span class="number">0</span>, :, <span class="number">1</span>::<span class="number">2</span>] = torch.cos(position * div_term)  <span class="comment"># Odd dimensions</span></span><br></pre></td></tr></table></figure></li>
+<li>这作业开始就没手动backpropagation要求了，全是pytorch实现了，我还愣了一下。虽然课程没有要求实现，但是个人觉得收获最大的在于看transformer和它的solver的实现有很多案例学习.</li>
+</ul>
+<p>decoder的forward实现</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TransformerDecoderLayer</span>(nn.Module):</span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    A single layer of a Transformer decoder, to be used with TransformerDecoder.</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, input_dim, num_heads, dim_feedforward=<span class="number">2048</span>, dropout=<span class="number">0.1</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Construct a TransformerDecoderLayer instance.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Inputs:</span></span><br><span class="line"><span class="string">         - input_dim: Number of expected features in the input.</span></span><br><span class="line"><span class="string">         - num_heads: Number of attention heads</span></span><br><span class="line"><span class="string">         - dim_feedforward: Dimension of the feedforward network model.</span></span><br><span class="line"><span class="string">         - dropout: The dropout value.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="built_in">super</span>().__init__()</span><br><span class="line">        <span class="variable language_">self</span>.self_attn = MultiHeadAttention(input_dim, num_heads, dropout)</span><br><span class="line">        <span class="variable language_">self</span>.multihead_attn = MultiHeadAttention(input_dim, num_heads, dropout)</span><br><span class="line">        <span class="variable language_">self</span>.linear1 = nn.Linear(input_dim, dim_feedforward)</span><br><span class="line">        <span class="variable language_">self</span>.dropout = nn.Dropout(dropout)</span><br><span class="line">        <span class="variable language_">self</span>.linear2 = nn.Linear(dim_feedforward, input_dim)</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.norm1 = nn.LayerNorm(input_dim)</span><br><span class="line">        <span class="variable language_">self</span>.norm2 = nn.LayerNorm(input_dim)</span><br><span class="line">        <span class="variable language_">self</span>.norm3 = nn.LayerNorm(input_dim)</span><br><span class="line">        <span class="variable language_">self</span>.dropout1 = nn.Dropout(dropout)</span><br><span class="line">        <span class="variable language_">self</span>.dropout2 = nn.Dropout(dropout)</span><br><span class="line">        <span class="variable language_">self</span>.dropout3 = nn.Dropout(dropout)</span><br><span class="line"></span><br><span class="line">        <span class="variable language_">self</span>.activation = nn.ReLU()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">forward</span>(<span class="params">self, tgt, memory, tgt_mask=<span class="literal">None</span></span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Pass the inputs (and mask) through the decoder layer.</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Inputs:</span></span><br><span class="line"><span class="string">        - tgt: the sequence to the decoder layer, of shape (N, T, W)</span></span><br><span class="line"><span class="string">        - memory: the sequence from the last layer of the encoder, of shape (N, S, D)</span></span><br><span class="line"><span class="string">        - tgt_mask: the parts of the target sequence to mask, of shape (T, T)</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">        Returns:</span></span><br><span class="line"><span class="string">        - out: the Transformer features, of shape (N, T, W)</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Perform self-attention on the target sequence (along with dropout and</span></span><br><span class="line">        <span class="comment"># layer norm).</span></span><br><span class="line">        tgt2 = <span class="variable language_">self</span>.self_attn(query=tgt, key=tgt, value=tgt, attn_mask=tgt_mask)</span><br><span class="line">        tgt = tgt + <span class="variable language_">self</span>.dropout1(tgt2)</span><br><span class="line">        tgt = <span class="variable language_">self</span>.norm1(tgt)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Attend to both the target sequence and the sequence from the last</span></span><br><span class="line">        <span class="comment"># encoder layer.</span></span><br><span class="line">        tgt2 = <span class="variable language_">self</span>.multihead_attn(query=tgt, key=memory, value=memory)</span><br><span class="line">        tgt = tgt + <span class="variable language_">self</span>.dropout2(tgt2)</span><br><span class="line">        tgt = <span class="variable language_">self</span>.norm2(tgt)</span><br><span class="line"></span><br><span class="line">        <span class="comment"># Pass</span></span><br><span class="line">        tgt2 = <span class="variable language_">self</span>.linear2(<span class="variable language_">self</span>.dropout(<span class="variable language_">self</span>.activation(<span class="variable language_">self</span>.linear1(tgt))))</span><br><span class="line">        tgt = tgt + <span class="variable language_">self</span>.dropout3(tgt2)</span><br><span class="line">        tgt = <span class="variable language_">self</span>.norm3(tgt)</span><br><span class="line">        <span class="keyword">return</span> tgt</span><br></pre></td></tr></table></figure>
+
+<p>以及他们怎么叠起来的。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">TransformerDecoder</span>(nn.Module):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">__init__</span>(<span class="params">self, decoder_layer, num_layers</span>):</span><br><span class="line">        <span class="built_in">super</span>().__init__()</span><br><span class="line">        <span class="variable language_">self</span>.layers = clones(decoder_layer, num_layers)</span><br><span class="line">        <span class="variable language_">self</span>.num_layers = num_layers</span><br><span class="line"></span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">forward</span>(<span class="params">self, tgt, memory, tgt_mask=<span class="literal">None</span></span>):</span><br><span class="line">        output = tgt</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> mod <span class="keyword">in</span> <span class="variable language_">self</span>.layers:</span><br><span class="line">            output = mod(output, memory, tgt_mask=tgt_mask)</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> output</span><br></pre></td></tr></table></figure>
+
+<p>solver的使用：loss_history怎么管理，optim怎么用。。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">_step</span>(<span class="params">self</span>):</span><br><span class="line">        <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">        Make a single gradient update. This is called by train() and should not</span></span><br><span class="line"><span class="string">        be called manually.</span></span><br><span class="line"><span class="string">        &quot;&quot;&quot;</span></span><br><span class="line">        <span class="comment"># Make a minibatch of training data</span></span><br><span class="line">        minibatch = sample_coco_minibatch(</span><br><span class="line">            <span class="variable language_">self</span>.data, batch_size=<span class="variable language_">self</span>.batch_size, split=<span class="string">&quot;train&quot;</span></span><br><span class="line">        )</span><br><span class="line">        captions, features, urls = minibatch</span><br><span class="line"></span><br><span class="line">        captions_in = captions[:, :-<span class="number">1</span>]</span><br><span class="line">        captions_out = captions[:, <span class="number">1</span>:]</span><br><span class="line"></span><br><span class="line">        mask = captions_out != <span class="variable language_">self</span>.model._null</span><br><span class="line"></span><br><span class="line">        t_features = torch.Tensor(features)</span><br><span class="line">        t_captions_in = torch.LongTensor(captions_in)</span><br><span class="line">        t_captions_out = torch.LongTensor(captions_out)</span><br><span class="line">        t_mask = torch.LongTensor(mask)</span><br><span class="line">        logits = <span class="variable language_">self</span>.model(t_features, t_captions_in)</span><br><span class="line"></span><br><span class="line">        loss = <span class="variable language_">self</span>.transformer_temporal_softmax_loss(logits, t_captions_out, t_mask)</span><br><span class="line">        <span class="variable language_">self</span>.loss_history.append(loss.detach().numpy())</span><br><span class="line">        <span class="variable language_">self</span>.optim.zero_grad()</span><br><span class="line">        loss.backward()</span><br><span class="line">        <span class="variable language_">self</span>.optim.step()</span><br></pre></td></tr></table></figure>
+
+<h4 id="GAN"><a href="#GAN" class="headerlink" title="GAN"></a>GAN</h4><p>课程的过于细节了，感觉参与感欠佳，遂知乎上找了一个dcgan for anime generation自己实现了一下。</p>
+<p>dcgan for anime generation:<br>github repo: <a target="_blank" rel="noopener" href="https://github.com/FlappyBob/dcgan_anime">https://github.com/FlappyBob/dcgan_anime</a></p>
+<h3 id="完结体验"><a href="#完结体验" class="headerlink" title="完结体验"></a>完结体验</h3><p>log：除了最后的自监督学习之外没写，其他都完全写完了。slides没怎么看。除去休息日外大概花了两周左右吧。</p>
+<p>设计的好的点：</p>
+<ul>
+<li>整体难度曲线非常好，几乎是保姆级的入门dl。</li>
+</ul>
+<p>again这门课的精华是前两个作业，在实现算子中理解最核心的back propagation是怎么work的，当然，也只是感性的认识。第三个作业和之后的lecture我纯当小品看了。</p>
+<p>设计的不太好的点：</p>
+<ul>
+<li>这门课对dataset触及不是很多，在assignment里面有但是，我认为dataset在监督学习的过程中占的比重是巨大的。在train dcgan的时候我是自己爬的图片，但是提取头像过后，仍然会有不少的pollution，会异常输入天狗族脸，有的猫猫也会输入进去，导致最后的输出图片的噪音还是很大。</li>
+</ul>
+<p>最大的感受：</p>
+<ol>
+<li>训练这么多network之后最直观的感受还是dataset太重要了。作业都是完美的dataset，但是到了自己爬dataset的时候就花费了巨额的时间。而且工业界往往会非常多的人力和资源投入到pretraining中去。</li>
+<li>NN training的paper insights还是以大量的实验和观察为基础的。不论是dropout, batchnorm，还是相对最新的transformer都是这样。</li>
+<li>更加深入的理解到了: machine learning是app&#x2F;impact driven，理论是要给工程实践让路的。而实践是需要时间，和钱的。</li>
+<li>colab有点屎。</li>
+</ol>
+<p>最大的问题：</p>
+<ol>
+<li>整门课都是再调黑箱。无疑NN是一个非常好的发明，但是它究竟是怎么work的呢？</li>
+<li>真的需要对ai非常乐观吗？仅仅写一些toy让我对scaling law的成立还是没有非常“直观”的体验，最好是找一些初创ai公司实习一下。<img src="/2024/12/16/231n/image.png" class="" title="alt text"></li>
+</ol>
+<p>感兴趣的dlc(tierN to tier0)?</p>
+<ol>
+<li>做完DCGAN之后发现自己对工程细节非常的菜，遂打kaggle。</li>
+<li>之后有空希望写下224N作业，复现一波。再学DCGAN的时候看到了<a target="_blank" rel="noopener" href="https://github.com/carpedm20%EF%BC%8C%E6%8C%BAinspire%E6%88%91%E7%9A%84%E3%80%82">https://github.com/carpedm20，挺inspire我的。</a></li>
+<li>之后学习? RL？自监督？</li>
+</ol>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+        
+          <li><a href="/">Home</a></li>
+        
+          <li><a href="/about/">About</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="/links/">Links</a></li>
+        
+          <li><a href="/academic">Academic Page</a></li>
+        
+      </ul>
+    </div>
+
+    
+    
+      <div id="toc-footer" style="display: none">
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%B0%8F%E5%BB%BA%E8%AE%AE"><span class="toc-number">1.</span> <span class="toc-text">一些小建议</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-1-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.1.</span> <span class="toc-text">Assignment 1 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-2-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.2.</span> <span class="toc-text">Assignment 2 完结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Assignment-3-%E5%AE%8C%E7%BB%93"><span class="toc-number">1.3.</span> <span class="toc-text">Assignment 3 完结</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Transformer"><span class="toc-number">1.3.1.</span> <span class="toc-text">Transformer</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#GAN"><span class="toc-number">1.3.2.</span> <span class="toc-text">GAN</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8C%E7%BB%93%E4%BD%93%E9%AA%8C"><span class="toc-number">1.4.</span> <span class="toc-text">完结体验</span></a></li></ol></li></ol>
+      </div>
+    
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://flappy.name/2024/12/16/231n/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2024/12/16/231n/&text=231n log"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2024/12/16/231n/&is_video=false&description=231n log"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=231n log&body=Check out this article: https://flappy.name/2024/12/16/231n/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2024/12/16/231n/&title=231n log"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2024/12/16/231n/&name=231n log&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2024/12/16/231n/&t=231n log"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fa-solid fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+          <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fa-solid fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fa-solid fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa-solid fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2024-2025
+    Shengtao Yao
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Writing</a></li><!--
+     --><!--
+       --><li><a href="/links/">Links</a></li><!--
+     --><!--
+       --><li><a href="/academic">Academic Page</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script>
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script>
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="fa-regular fa-clone"></i>';
+    btn += '</span>';
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
