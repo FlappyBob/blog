@@ -141,6 +141,8 @@ for epoch in range(num_epochs):
         torch.save(model.state_dict(), "best_model.pth")
  ```
 
+至此一个简单的流程就结束了。
+
 
 ## 丹方（常用的框架nn；pytorch）
 Regression: nn.Linear
