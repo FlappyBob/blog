@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="kaggle公式"
+pname="使用database"
 hexo new post ${pname}
 
 mkdir /home/flappy/my-blog/source/_posts/${pname}
