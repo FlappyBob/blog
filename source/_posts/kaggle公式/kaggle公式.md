@@ -12,26 +12,16 @@ kaggle是一个很好的训练套公式理解的平台，并且很适合我这�
 
 ## 炼丹童子的自我修养
 
-### 1. data
-1. 下data
+### 处理data
 
-2. 可视化 -- 心里对data有个idea
-
-导库  
+#### 1. 预处理
 ``` py
-import numpy as np
-import pandas as pd # 表格数据用这个
-import matplotlib.pyplot as plt # cv用这个
-import os # 操作文件
-
 path = # ... 
 os.listdir(path)
-
-# 看表格
-pd.read_csv(os.path.join(digit_recognizer_path, 'train.csv')).head()
  ```
 
-看img，
+例子：minst
+![alt text](image.png)
 ``` py 
 train = pd.read_csv(digit_recognizer_path + "/train.csv", dtype = np.float32)
 
@@ -41,9 +31,9 @@ features_numpy = train.loc[:,train.columns != "label"].values/255 # normalizatio
 
 # train test split. Size of train data is 80% and size of test data is 20%.
 features_train, features_test, targets_train, targets_test = train_test_split(features_numpy,
-                                                                             targets_numpy,
-                                                                             test_size = 0.2,
-                                                                             random_state = 42)
+targets_numpy,
+test_size = 0.2,
+random_state = 42)
 
 # create feature and targets tensor for train set. As you remember we need variable to accumulate gradients. Therefore first we create tensor, then we will create variable
 featuresTrain = torch.from_numpy(features_train)
@@ -52,13 +42,19 @@ targetsTrain = torch.from_numpy(targets_train).type(torch.LongTensor) # data typ
 # create feature and targets tensor for test set.
 featuresTest = torch.from_numpy(features_test)
 targetsTest = torch.from_numpy(targets_test).type(torch.LongTensor) # data type is long
+```
 
+#### 2. 参数
+``` py
 # batch_size, epoch and iteration
 batch_size = 100
 n_iters = 10000
 num_epochs = n_iters / (len(features_train) / batch_size)
 num_epochs = int(num_epochs)
+```
 
+#### 3. dataloader设置和sample可视化
+``` py
 # Pytorch train and test sets
 train = torch.utils.data.TensorDataset(featuresTrain,targetsTrain)
 test = torch.utils.data.TensorDataset(featuresTest,targetsTest)
