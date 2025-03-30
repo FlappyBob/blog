@@ -26,6 +26,7 @@ path = # ...
 os.listdir(path)
 pd.ji
 
+# 看下表格吧
 pd.read_csv(os.path.join(digit_recognizer_path, 'train.csv')).head()
  ```
 
