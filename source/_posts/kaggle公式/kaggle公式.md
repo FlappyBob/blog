@@ -1,5 +1,5 @@
 ---
-title: ml/dl丹方 + 炼丹法（更新。。）
+title: ml/dl丹方 + （更新。。）
 date: 2025-03-30 12:16:38
 tags:
 ---
@@ -8,7 +8,7 @@ tags:
 
 *上dl课每次学完玄乎的丹方总是想着自己实践一下，最后总是发现其实没啥可实践的，除了一些infra的东西（框架/infra for ml）engineer可以做做；给data scientist留下的工程实践不难，但是却需要对问题有深刻的理解，套正确的公式，kaggle是一个很好的训练这个的平台，遂写博客总结一下pipeline和常用的框架，省的之后思考*
 
-## 公式做题就是快
+## 炼丹童子的自我修养
 
 ### 1. data
 1. 下data不多说
@@ -29,7 +29,7 @@ pd.ji
 pd.read_csv(os.path.join(digit_recognizer_path, 'train.csv')).head()
  ```
 
-## 常用的框架nn（pytorch）
+## 丹方（常用的框架nn；pytorch）
 Regression: nn.Linear
 ex: https://www.kaggle.com/competitions/titanic
 
