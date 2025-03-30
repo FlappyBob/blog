@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
     <meta name="description" content="我认为对dl这个东西，每人都有自己的职责：scientist实验这些框架能否解决新的问题；engineer搭建快速框架&#x2F;硬件；data scientist套现有的公式炼丹解决问题； 上dl课每次学完玄乎的丹方总是想着自己实践一下，最后总是发现其实没啥可实践的，除了一些infra的东西（框架&#x2F;infra for ml）engineer可以做做；给data scientist留下的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ml导库之旅（更新。。）">
+<meta property="og:title" content="ml&#x2F;dl丹方 + 炼丹法（更新。。）">
 <meta property="og:url" content="https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/index.html">
 <meta property="og:site_name" content="VA-11 HALL-B">
 <meta property="og:description" content="我认为对dl这个东西，每人都有自己的职责：scientist实验这些框架能否解决新的问题；engineer搭建快速框架&#x2F;硬件；data scientist套现有的公式炼丹解决问题； 上dl课每次学完玄乎的丹方总是想着自己实践一下，最后总是发现其实没啥可实践的，除了一些infra的东西（框架&#x2F;infra for ml）engineer可以做做；给data scientist留下的">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-03-30T16:16:38.000Z">
-<meta property="article:modified_time" content="2025-03-30T16:35:17.260Z">
+<meta property="article:modified_time" content="2025-03-30T16:36:50.301Z">
 <meta property="article:author" content="Shengtao Yao">
 <meta name="twitter:card" content="summary">
     
@@ -36,7 +36,7 @@
       
     
     <!-- title -->
-    <title>ml导库之旅（更新。。）</title>
+    <title>ml/dl丹方 + 炼丹法（更新。。）</title>
     <!-- async scripts -->
     <!-- Google Analytics -->
 
@@ -110,23 +110,23 @@
     <div id="share" style="display: none">
       <ul>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&text=ml导库之旅（更新。。）"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&is_video=false&description=ml导库之旅（更新。。）"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=ml导库之旅（更新。。）&body=Check out this article: https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&name=ml导库之旅（更新。。）&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&t=ml导库之旅（更新。。）"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&text=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&is_video=false&description=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ml/dl丹方 + 炼丹法（更新。。）&body=Check out this article: https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fa-solid fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&name=ml/dl丹方 + 炼丹法（更新。。）&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&t=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
 </ul>
 
     </div>
     
     
       <div id="toc">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F%E5%81%9A%E9%A2%98%E5%B0%B1%E6%98%AF%E5%BF%AB"><span class="toc-number">1.</span> <span class="toc-text">公式做题就是快</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-data"><span class="toc-number">1.1.</span> <span class="toc-text">1. data</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F%E5%81%9A%E9%A2%98%E5%B0%B1%E6%98%AF%E5%BF%AB"><span class="toc-number">1.</span> <span class="toc-text">公式做题就是快</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-data"><span class="toc-number">1.1.</span> <span class="toc-text">1. data</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6nn%EF%BC%88pytorch%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">常用的框架nn（pytorch）</span></a></li></ol>
       </div>
     
   </span>
@@ -139,7 +139,7 @@
   <header>
     
     <h1 class="posttitle p-name" itemprop="name headline">
-        ml导库之旅（更新。。）
+        ml/dl丹方 + 炼丹法（更新。。）
     </h1>
 
 
@@ -175,26 +175,10 @@
 </li>
 </ol>
 <p>导库  </p>
-<pre><code class="py">import numpy as np
-import pandas as pd # 表格数据用这个
-import matplotlib.pyplot as plt # cv用这个
-import os # 一般常用
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd <span class="comment"># 表格数据用这个</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt <span class="comment"># cv用这个</span></span><br><span class="line"><span class="keyword">import</span> os <span class="comment"># 一般常用</span></span><br><span class="line"></span><br><span class="line">path = <span class="comment"># ... </span></span><br><span class="line">os.listdir(path)</span><br><span class="line">pd.ji</span><br><span class="line"></span><br><span class="line">pd.read_csv(os.path.join(digit_recognizer_path, <span class="string">&#x27;train.csv&#x27;</span>)).head()</span><br></pre></td></tr></table></figure>
 
-path = # ... 
-os.listdir(path)
-pd.ji
-
-pd.read_csv(os.path.join(digit_recognizer_path, &#39;train.csv&#39;)).head()
-``
-
-
-## 常用的框架nn（pytorch）
-Regression: nn.Linear
-ex: https://www.kaggle.com/competitions/titanic
-
-Classification: (nn.Linear + sigmoid) *n + softmax
-ex: 经典的mnist https://www.kaggle.com/competitions/digit-recognizer
-</code></pre>
+<h2 id="常用的框架nn（pytorch）"><a href="#常用的框架nn（pytorch）" class="headerlink" title="常用的框架nn（pytorch）"></a>常用的框架nn（pytorch）</h2><p>Regression: nn.Linear<br>ex: <a target="_blank" rel="noopener" href="https://www.kaggle.com/competitions/titanic">https://www.kaggle.com/competitions/titanic</a></p>
+<p>Classification: (nn.Linear + sigmoid) *n + softmax<br>ex: 经典的mnist <a target="_blank" rel="noopener" href="https://www.kaggle.com/competitions/digit-recognizer">https://www.kaggle.com/competitions/digit-recognizer</a></p>
 
   </div>
 </article>
@@ -224,23 +208,23 @@ ex: 经典的mnist https://www.kaggle.com/competitions/digit-recognizer
     
     
       <div id="toc-footer" style="display: none">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F%E5%81%9A%E9%A2%98%E5%B0%B1%E6%98%AF%E5%BF%AB"><span class="toc-number">1.</span> <span class="toc-text">公式做题就是快</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-data"><span class="toc-number">1.1.</span> <span class="toc-text">1. data</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F%E5%81%9A%E9%A2%98%E5%B0%B1%E6%98%AF%E5%BF%AB"><span class="toc-number">1.</span> <span class="toc-text">公式做题就是快</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-data"><span class="toc-number">1.1.</span> <span class="toc-text">1. data</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E7%9A%84%E6%A1%86%E6%9E%B6nn%EF%BC%88pytorch%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">常用的框架nn（pytorch）</span></a></li></ol>
       </div>
     
 
     <div id="share-footer" style="display: none">
       <ul>
   <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&text=ml导库之旅（更新。。）"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&is_video=false&description=ml导库之旅（更新。。）"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=ml导库之旅（更新。。）&body=Check out this article: https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml导库之旅（更新。。）"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&name=ml导库之旅（更新。。）&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
-  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&t=ml导库之旅（更新。。）"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&text=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&is_video=false&description=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=ml/dl丹方 + 炼丹法（更新。。）&body=Check out this article: https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/"><i class="fa-solid fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&title=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&name=ml/dl丹方 + 炼丹法（更新。。）&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://flappy.name/2025/03/30/kaggle%E5%85%AC%E5%BC%8F/kaggle%E5%85%AC%E5%BC%8F/&t=ml/dl丹方 + 炼丹法（更新。。）"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
 </ul>
 
     </div>

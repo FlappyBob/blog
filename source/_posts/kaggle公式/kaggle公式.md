@@ -1,5 +1,5 @@
 ---
-title: ml导库之旅（更新。。）
+title: ml/dl丹方 + 炼丹法（更新。。）
 date: 2025-03-30 12:16:38
 tags:
 ---
@@ -27,8 +27,7 @@ os.listdir(path)
 pd.ji
 
 pd.read_csv(os.path.join(digit_recognizer_path, 'train.csv')).head()
-``
-
+ ```
 
 ## 常用的框架nn（pytorch）
 Regression: nn.Linear
