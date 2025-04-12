@@ -2,7 +2,7 @@
 # 不能有空格！
 
 # name 
-pname="使用database"
+pname="23/24'BLG给我的一场梦9"
 hexo new post ${pname}
 
 mkdir /home/flappy/my-blog/source/_posts/${pname}
