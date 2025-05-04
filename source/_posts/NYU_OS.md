@@ -16,7 +16,6 @@ lab： https://github.com/nyu-cs202/labs
 - cpu
 - battery
 - bus & iodevice (popular are monitor / keyboard / touchbar / mouse)
-- 。。。 
 
 的集合。OS做的就是把这一坨，硬不拉几的东西做的可以和人类沟通。
 - 比如让东西显示在显示器上。
