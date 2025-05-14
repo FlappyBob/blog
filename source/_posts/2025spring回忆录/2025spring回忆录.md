@@ -69,9 +69,9 @@ tags:
 ### 上课
 Deep Learning -- Alfredo交，Lecun客串了4节，我觉得这节课更多的是Lecun自己的思想的介绍，包括Energy Model，World Model等等。这节课是pytorch intensive，几乎不会涉及原理，包括对算子的推导（只有第一个作业有手推），更多的是直觉的培养。最后的一个作业是训练一个world model。
 
-ODE，数学课，老师教的偏原理但是考的还是挺简单的，包括Uniqueness theorm都会在课上简易证明，书是bruan的那本。前半部分的证明我都仔细看了。到了Linear的部分发现没有series证明的基础感觉就啃不动了，不得不说数学证明是门手艺活，是要时间去证明的。上完课个人感觉自己进化了，感觉和看完《CSAPP》的时候一样，但是学deep learning的时候却没这种感觉。
+ODE，数学课，老师教的偏原理但是考的还是挺简单的，包括Uniqueness theorm都会在课上简易证明，书是bruan的那本。前半部分的证明我都仔细看了。到了ode的部分发现没有分析证明的基础感觉就啃不动了，不得不说数学证明是门手艺活，是要时间去证明的。上完课个人感觉自己进化了，感觉和看完《CSAPP》的时候一样，但是学deep learning的时候却没这种感觉。
 
-中间再上编译器的，太累了给quit了换了一堆水课。之后因为不上编译器，闲下来把不少对Deep Learning的问题思考了一下，上了一下CSE234 MLsys，UCSD的张昊老师开的，刚考完现在在搓第一个pa，一个简易的autodiff。之前也想过要不要梭哈一下all in 这个领域去做所谓research，现在想想我当时的心态真的很投机，也真的很天真，在完全不知道这个领域干嘛的时候就对他产生不切实际的幻想（张昊老师： MLsys is all about matmul）
+中间再上编译器的，太累了给quit了换了一堆水课。之后因为不上编译器，闲下来把不少对Deep Learning的问题思考了一下，上了一下CSE234 MLsys，UCSD的张昊老师开的，刚考完现在在搓第一个pa，一个简易的autodiff。之前也想过要不要梭哈一下all in 这个领域去做所谓research。（现在知道了，it is all about matmul）现在想想我当时的心态真的很投机，也真的很天真，在完全不知道这个领域干嘛的时候就对他产生不切实际的幻想
 
 另外还是在当OS的TA + grader，第一次感受到重复劳动的疲惫感。。。也许这就是phd常态吧，学习怎么deal这些杂事也是生活的一部分。
 
