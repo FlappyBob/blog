@@ -1,7 +1,7 @@
 # generate new post
 # 不能有空格！
 # name 
-pname="不要他妈的写javascript！"
+pname="断舍离"
 hexo new post ${pname}
 
 mkdir source/_posts/${pname}
